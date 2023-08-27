@@ -108,7 +108,7 @@ public class TestBootstrapModelDocGen {
 		
 		WidgetFactory execProcessor = null;
 		Collection<Throwable> resolveFailures = new ArrayList<>();		
-		URI baseActionURI = URI.createURI("https://bootstrap.models.nasdanika.org/");
+		URI baseActionURI = URI.createURI("local://bootstrap.models.nasdanika.org/");
 		
 		Map<EPackage, URI> packageURIMap = Map.ofEntries(
 			Map.entry(EcorePackage.eINSTANCE, URI.createURI("https://ecore.models.nasdanika.org/")),			
