@@ -186,6 +186,10 @@ public class TestBootstrapModelDocGen {
 				return !"CNAME".equals(path);				
 			};
 			
+			protected ProgressMonitor createProgressMonitor() {
+				return progressMonitor;				
+			};
+			
 		};		
 		
 		Map<String, Collection<String>> errors = actionSiteGenerator.generate(rootActionURI, pageTemplateURI, siteMapDomain, new File("../docs"), new File("target/doc-site-work-dir"), true);
