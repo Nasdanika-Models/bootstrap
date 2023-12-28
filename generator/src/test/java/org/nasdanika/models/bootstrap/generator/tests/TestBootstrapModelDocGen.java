@@ -44,7 +44,7 @@ public class TestBootstrapModelDocGen {
 	public void testGenerateBootstrapModelDoc() throws IOException, DiagnosticException {
 		ProgressMonitor progressMonitor = new NullProgressMonitor(); // new PrintStreamProgressMonitor();
 		MutableContext context = Context.EMPTY_CONTEXT.fork();
-		context.register(DiagramGenerator.class, new PlantUMLDiagramGenerator(true));
+		context.register(DiagramGenerator.class, new PlantUMLDiagramGenerator());
 		Consumer<Diagnostic> diagnosticConsumer = d -> d.dump(System.out, 0);
 		List<Function<URI,Action>> actionProviders = new ArrayList<>();		
 		EcoreGenBootstrapProcessorsFactory ecoreGenExecProcessorFactory = new EcoreGenBootstrapProcessorsFactory(context);		
