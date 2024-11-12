@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nasdanika.models.bootstrap</groupId>
 	<artifactId>parent</artifactId>
-	<version>2024.10.0</version>
+	<version>2024.11.0</version>
 	<packaging>pom</packaging>
 	<name>Bootstrap processors, doc generator</name>
 
@@ -53,12 +53,18 @@
 		    <artifactId>junit-jupiter-engine</artifactId>
 		    <version>5.10.2</version>
 		    <scope>test</scope>
-		</dependency>		
+		</dependency>				
+		<dependency>
+			<groupId>org.assertj</groupId>
+			<artifactId>assertj-core</artifactId>
+			<version>3.26.3</version>
+			<scope>test</scope>
+		</dependency>				
 	</dependencies>
 
 	<modules>
-		<module>processors</module>
-		<module>generator</module>
+		<module>model</module>
+		<module>gen</module>
 	</modules>
 </project>
 
