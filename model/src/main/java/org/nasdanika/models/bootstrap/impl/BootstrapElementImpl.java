@@ -9,6 +9,7 @@ import org.eclipse.emf.ecore.InternalEObject;
 import org.nasdanika.models.bootstrap.Appearance;
 import org.nasdanika.models.bootstrap.BootstrapElement;
 import org.nasdanika.models.bootstrap.BootstrapPackage;
+import org.nasdanika.models.html.impl.HtmlElementImpl;
 
 /**
  * <!-- begin-user-doc -->
@@ -23,7 +24,7 @@ import org.nasdanika.models.bootstrap.BootstrapPackage;
  *
  * @generated
  */
-public class BootstrapElementImpl extends org.nasdanika.models.html.impl.HtmlElementImpl implements BootstrapElement {
+public class BootstrapElementImpl extends HtmlElementImpl implements BootstrapElement {
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

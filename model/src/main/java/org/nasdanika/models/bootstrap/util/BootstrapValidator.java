@@ -65,6 +65,7 @@ import org.nasdanika.models.bootstrap.TableSection;
 import org.nasdanika.models.bootstrap.Tag;
 import org.nasdanika.models.bootstrap.Text;
 import org.nasdanika.models.bootstrap.Tooltip;
+import org.nasdanika.models.html.util.HtmlValidator;
 
 /**
  * <!-- begin-user-doc -->
@@ -114,7 +115,7 @@ public class BootstrapValidator extends EObjectValidator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected org.nasdanika.models.html.util.HtmlValidator htmlValidator;
+	protected HtmlValidator htmlValidator;
 
 	/**
 	 * Creates an instance of the switch.
@@ -124,7 +125,7 @@ public class BootstrapValidator extends EObjectValidator {
 	 */
 	public BootstrapValidator() {
 		super();
-		htmlValidator = org.nasdanika.models.html.util.HtmlValidator.INSTANCE;
+		htmlValidator = HtmlValidator.INSTANCE;
 	}
 
 	/**
