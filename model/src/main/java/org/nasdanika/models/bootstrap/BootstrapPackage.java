@@ -255,6 +255,15 @@ public interface BootstrapPackage extends EPackage {
 	int PAGE__ANNOTATIONS = HtmlPackage.PAGE__ANNOTATIONS;
 
 	/**
+	 * The feature id for the '<em><b>Prolog</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PAGE__PROLOG = HtmlPackage.PAGE__PROLOG;
+
+	/**
 	 * The feature id for the '<em><b>Head</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -271,6 +280,15 @@ public interface BootstrapPackage extends EPackage {
 	 * @ordered
 	 */
 	int PAGE__BODY = HtmlPackage.PAGE__BODY;
+
+	/**
+	 * The feature id for the '<em><b>Epilog</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PAGE__EPILOG = HtmlPackage.PAGE__EPILOG;
 
 	/**
 	 * The feature id for the '<em><b>Builders</b></em>' containment reference list.
