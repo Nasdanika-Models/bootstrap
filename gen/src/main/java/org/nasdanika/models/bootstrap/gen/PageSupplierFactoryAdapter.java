@@ -1,17 +1,17 @@
 package org.nasdanika.models.bootstrap.gen;
 
 import java.util.List;
+import java.util.Map;
 
-import org.nasdanika.common.Supplier;
 import org.nasdanika.common.Context;
 import org.nasdanika.common.Function;
 import org.nasdanika.common.ProgressMonitor;
 import org.nasdanika.common.SupplierFactory;
-import org.nasdanika.persistence.ConfigurationException;
 import org.nasdanika.html.HTMLFactory;
 import org.nasdanika.html.HTMLPage;
 import org.nasdanika.html.bootstrap.BootstrapFactory;
 import org.nasdanika.models.bootstrap.Page;
+import org.nasdanika.persistence.ConfigurationException;
 
 public class PageSupplierFactoryAdapter extends org.nasdanika.models.html.gen.PageSupplierFactoryAdapter {
 	
@@ -24,8 +24,9 @@ public class PageSupplierFactoryAdapter extends org.nasdanika.models.html.gen.Pa
 		return type == SupplierFactory.class;
 	}
 	
-	protected Function<Supplier.FunctionResult<List<Object>,List<Object>>, HTMLPage> createPageFunction(Context context) {
-		return new Function<Supplier.FunctionResult<List<Object>,List<Object>>, HTMLPage>() {
+	@Override
+	protected Function<Map<PagePart, List<Object>>, HTMLPage> createPageFunction(Context context) {
+		return new Function<Map<PagePart, List<Object>>, HTMLPage>() {
 			
 			@Override
 			public double size() {
@@ -38,7 +39,7 @@ public class PageSupplierFactoryAdapter extends org.nasdanika.models.html.gen.Pa
 			}
 			
 			@Override
-			public HTMLPage execute(Supplier.FunctionResult<List<Object>,List<Object>> headAndBody, ProgressMonitor progressMonitor) {
+			public HTMLPage execute(Map<PagePart, List<Object>> pageParts, ProgressMonitor progressMonitor) {
 				BootstrapFactory factory = context.get(BootstrapFactory.class, BootstrapFactory.INSTANCE);
 				HTMLFactory htmlFactory = factory.getHTMLFactory();
 				Page semanticElement = (Page) getTarget();
@@ -61,17 +62,33 @@ public class PageSupplierFactoryAdapter extends org.nasdanika.models.html.gen.Pa
 				for (String script: semanticElement.getScripts()) {
 					ret.script(script);
 				}				
-				for (Object he: headAndBody.argument()) {
-					ret.head(he);
+				
+				for (Object prologElement: context.get(PAGE_PROLOG_PROPERTY, List.class)) {
+					ret.prolog(prologElement);
 				}
-				for (Object he: context.get(PAGE_HEAD_PROPERTY, List.class)) {
-					ret.head(he);
+				for (Object prologElement: pageParts.get(PagePart.prolog)) {
+					ret.prolog(prologElement);
 				}
-				for (Object be: context.get(PAGE_BODY_PROPERTY, List.class)) {
-					ret.body(be);
+				
+				for (Object headElement: context.get(PAGE_HEAD_PROPERTY, List.class)) {
+					ret.head(headElement);
 				}
-				for (Object be: headAndBody.result()) {
-					ret.body(be);
+				for (Object headElement: pageParts.get(PagePart.head)) {
+					ret.head(headElement);
+				}
+				
+				for (Object bodyElement: context.get(PAGE_BODY_PROPERTY, List.class)) {
+					ret.body(bodyElement);
+				}
+				for (Object bodyElement: pageParts.get(PagePart.body)) {
+					ret.body(bodyElement);
+				}
+				
+				for (Object epilogElement: context.get(PAGE_EPILOG_PROPERTY, List.class)) {
+					ret.epilog(epilogElement);
+				}
+				for (Object epilogElement: pageParts.get(PagePart.epilog)) {
+					ret.epilog(epilogElement);
 				}
 				return ret;
 			}
