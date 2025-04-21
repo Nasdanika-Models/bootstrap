@@ -1,866 +1,866 @@
 {
   "references/eClassifiers/Card/index.html": {
-    "link-uuid": "b13dc6e8-9e4e-429b-a589-9bee670e29be",
+    "link-uuid": "22806031-fc6f-4aa5-aed7-c89fa9fd8185",
     "title": "Card",
     "content": "Bootstrap card."
   },
   "references/eClassifiers/Table/references/eStructuralFeatures/header/index.html": {
     "path": "Table/References/header",
-    "link-uuid": "96519b9e-0e09-4439-a38e-80852b1ec790",
+    "link-uuid": "de88c2d3-faa8-4458-8306-b60da7db018b",
     "title": "header",
     "content": "Type TableHeader Multiplicity 0..1 Table header."
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/dark/index.html": {
     "path": "TableConfiguration/Attributes/dark",
-    "link-uuid": "924974cc-2d1a-446e-a02b-ce4ee115f4cd",
+    "link-uuid": "ad95926a-e9e1-4f60-8538-679e77b0e8a3",
     "title": "dark",
     "content": "Type EBoolean Multiplicity 0..1 Dark table flag."
   },
   "references/eClassifiers/ContentActionGroupItem/inheritance.html": {
     "path": "ContentActionGroupItem/Inheritance",
-    "link-uuid": "88c2467d-ab62-4ee1-9cd0-80a0103c8c25",
+    "link-uuid": "10b1d946-ada3-4aef-99d0-1daec2f57834",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/padding/index.html": {
     "path": "Appearance/References/padding",
-    "link-uuid": "b6b5c130-68bc-4100-ade2-7bee112134de",
+    "link-uuid": "5f0ad258-4682-429c-a7a4-92517f495c40",
     "title": "padding",
     "content": "Type Spacing Multiplicity 0..* Padding configuration."
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/slides/index.html": {
     "path": "Carousel/References/slides",
-    "link-uuid": "533ef760-211a-4478-a7ec-69a2ce1f586d",
+    "link-uuid": "3051a602-e32b-4aa6-b5a6-e6e0e1dc26cb",
     "title": "slides",
     "content": "Type Slide Multiplicity 0..*"
   },
   "references/eClassifiers/Page/inheritance.html": {
     "path": "Page/Inheritance",
-    "link-uuid": "cfaba5b9-3053-416a-b0f9-cfa20e735247",
+    "link-uuid": "86127414-c922-4eca-85a9-54c394ce6a57",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Table/references/eStructuralFeatures/footer/index.html": {
     "path": "Table/References/footer",
-    "link-uuid": "a02746bf-8f37-4138-8cd1-3b3e78e50390",
+    "link-uuid": "18db31dd-0db5-4120-87c3-7761988725ce",
     "title": "footer",
     "content": "Type TableSection Multiplicity 0..1 Table footer."
   },
   "references/eClassifiers/TableSection/index.html": {
-    "link-uuid": "87a29fe1-54dd-4f60-ae18-fb30ff47419f",
+    "link-uuid": "6e56db68-f890-462b-ae81-fec250d6cd9c",
     "title": "TableSection",
     "content": "Table section - body or footer, header has its own class."
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/transform/index.html": {
     "path": "Text/Attributes/transform",
-    "link-uuid": "67419632-307c-44f7-aafe-62b660132962",
+    "link-uuid": "d214d9c3-8752-4ec4-99de-45a56cfc55ce",
     "title": "transform",
     "content": "Type TextTransform Multiplicity 0..1 Text case transformation."
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/border/index.html": {
     "path": "Appearance/References/border",
-    "link-uuid": "d03c4433-ac63-49f3-90d4-6959ff624888",
+    "link-uuid": "462c7697-def3-42ea-a953-112f05e023cf",
     "title": "border",
     "content": "Type Border Multiplicity 0..4 Border configuration."
   },
   "references/eClassifiers/TableHeader/references/eStructuralFeatures/dark/index.html": {
     "path": "TableHeader/Attributes/dark",
-    "link-uuid": "9012dbf7-a7c7-4946-bc28-283672184689",
+    "link-uuid": "d96bd6dd-37c0-4ad4-a323-7be4bc6f1de3",
     "title": "dark",
     "content": "Type EBoolean Multiplicity 0..1 Dark header (mutually exclusive with light)."
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/alignment/index.html": {
     "path": "Text/Attributes/alignment",
-    "link-uuid": "a1234e7a-a870-4315-a1e3-4350b8c52217",
+    "link-uuid": "d47f950f-6afa-4a17-866c-61b9dea9880c",
     "title": "alignment",
     "content": "Type TextAlignment Multiplicity 0..1 Text alignment."
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/left/index.html": {
     "path": "Spacing/Attributes/left",
-    "link-uuid": "c44b677f-e3e9-4200-afdf-8c5c883251cf",
+    "link-uuid": "d7691c72-a4a0-4951-b0cc-206233f73c7c",
     "title": "left",
     "content": "Type EBoolean Multiplicity 0..1 Left spacing."
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/x/index.html": {
     "path": "Spacing/Attributes/x",
-    "link-uuid": "781e54f1-e299-4873-8ca3-73ffae71385c",
+    "link-uuid": "e242fbeb-df12-446b-a0e8-3975ce5c2e4b",
     "title": "x",
     "content": "Type EBoolean Multiplicity 0..1 Horizontal spacing."
   },
   "references/eClassifiers/Container/references/eStructuralFeatures/rows/index.html": {
     "path": "Container/References/rows",
-    "link-uuid": "2ba1852c-6ae1-459a-b0f6-72e9feb17579",
+    "link-uuid": "5d9ced0b-a209-48c2-914f-ce296741fb67",
     "title": "rows",
     "content": "Type Row Multiplicity 0..* Container rows."
   },
   "references/eClassifiers/Item/index.html": {
-    "link-uuid": "fd39f09d-5492-4e51-94bd-f69e849ab3c0",
+    "link-uuid": "8ccd70d9-c442-418a-b286-16e6bd3ab4ff",
     "title": "Item",
     "content": "Base class for model elements which can be active, disabled, and have color."
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/size/index.html": {
     "path": "Modal/Attributes/size",
-    "link-uuid": "3a4df08a-08f2-41ca-a591-bb39d27ce9a2",
+    "link-uuid": "a9312a45-d61d-45d2-874c-bbdd3f586677",
     "title": "size",
     "content": "Type EString Multiplicity 0..1 Modal size - small, large, or extra-large."
   },
   "references/eClassifiers/Item/references/eStructuralFeatures/disabled/index.html": {
     "path": "Item/Attributes/disabled",
-    "link-uuid": "e3bef6ef-a7db-4617-b3ea-633b52750b9d",
+    "link-uuid": "a3d630d8-6b0c-4532-9953-8393e3ea9120",
     "title": "disabled",
     "content": "Type EBoolean Multiplicity 0..1 Indicates that the item is disabled and cannot be activated/selected."
   },
   "references/eClassifiers/Border/references/eStructuralFeatures/left/index.html": {
     "path": "Border/Attributes/left",
-    "link-uuid": "09365def-a741-4604-9c4b-d7830c08d03a",
+    "link-uuid": "6d0b56ec-4e90-4369-aa69-ba9a2b0420f5",
     "title": "left",
     "content": "Type EBoolean Multiplicity 0..1 Left border."
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/truncate/index.html": {
     "path": "Text/Attributes/truncate",
-    "link-uuid": "f0004fdd-5347-4847-be78-855765eac85c",
+    "link-uuid": "69d98efc-8bc1-4fd8-86e5-93e93b607f32",
     "title": "truncate",
     "content": "Type EBoolean Multiplicity 0..1 Use to truncate the text with an ellipsis."
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/breakpoint/index.html": {
     "path": "Spacing/Attributes/breakpoint",
-    "link-uuid": "2a43bb81-4e0c-4db6-8529-010f035833f1",
+    "link-uuid": "5d13b516-fc18-4aa0-adc9-e74f16cc5d86",
     "title": "breakpoint",
     "content": "Type Breakpoint Multiplicity 0..1 Spacing breakpoint."
   },
   "references/eClassifiers/Row/inheritance.html": {
     "path": "Row/Inheritance",
-    "link-uuid": "362b6e71-f8d8-48ac-aaaf-1b46c81b403f",
+    "link-uuid": "95cf4c65-ffd7-4399-95fc-0fcf08cf84e8",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/ActionGroup/references/eStructuralFeatures/flush/index.html": {
     "path": "ActionGroup/Attributes/flush",
-    "link-uuid": "b1f97628-1ba9-4a5d-a21d-48691d7479fc",
+    "link-uuid": "96f54c55-8918-4a91-bad8-dd453370af64",
     "title": "flush",
     "content": "Type EBoolean Multiplicity 0..1 Removes borders to render action group items edge-to-edge in a parent container."
   },
   "references/eClassifiers/Carousel/inheritance.html": {
     "path": "Carousel/Inheritance",
-    "link-uuid": "7ab75044-0056-4f83-ae26-ee5e57e0b66b",
+    "link-uuid": "c392a7b8-f697-4008-a147-398a27db4433",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/borderless/index.html": {
     "path": "TableConfiguration/Attributes/borderless",
-    "link-uuid": "1ff24117-125f-4690-a7d6-74c8b3e2b42a",
+    "link-uuid": "4c133e1e-fb2a-43c6-994f-6491d76b86a3",
     "title": "borderless",
     "content": "Type EBoolean Multiplicity 0..1 Borderless table flag."
   },
   "references/eClassifiers/TableRow/references/eStructuralFeatures/cells/index.html": {
     "path": "TableRow/References/cells",
-    "link-uuid": "c19f5056-5f39-4028-812d-7f9fc0f85a7f",
+    "link-uuid": "1f6eab42-6582-454e-a566-1b2c5cdc6214",
     "title": "cells",
     "content": "Type TableCell Multiplicity 0..* Table row cells."
   },
   "references/eClassifiers/ContentActionGroupItem/references/eStructuralFeatures/content/index.html": {
     "path": "ContentActionGroupItem/References/content",
-    "link-uuid": "728d3f57-6d32-4a79-94db-0f0857fd6631",
+    "link-uuid": "73e22c9c-0f32-4a71-b1b2-1bbd25611432",
     "title": "content",
     "content": "Type EObject Multiplicity 0..* Container content. Content elements are adapted to ${javadoc/org.nasdanika.common.SupplierFactory} for generation of HTML content."
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/bordered/index.html": {
     "path": "TableConfiguration/Attributes/bordered",
-    "link-uuid": "1a6c0ec8-2fe2-4546-800d-471bc5be0d72",
+    "link-uuid": "cd8fe322-7398-4c14-8b9c-b8bd2fc8de26",
     "title": "bordered",
     "content": "Type EBoolean Multiplicity 0..1 Bordered table flag."
   },
   "references/eClassifiers/LinkActionGroupItem/references/eStructuralFeatures/url/index.html": {
     "path": "LinkActionGroupItem/Attributes/url",
-    "link-uuid": "d28266bf-b57f-4fdc-a1dc-7f660256656f",
+    "link-uuid": "e20b9d9a-bf01-4840-9a9c-faeca9d8257c",
     "title": "url",
     "content": "Type EString Multiplicity 1 Link URL."
   },
   "references/eClassifiers/Page/index.html": {
-    "link-uuid": "3cd59102-8684-4035-9629-7f4174820ee5",
+    "link-uuid": "619a7901-2e5a-4191-9f37-7812d97e6e3e",
     "title": "Page",
     "content": "HTML page with bootstrap elements in the head - meta, stylesheets, and scripts. Overview video in Russian."
   },
   "references/eClassifiers/Column/inheritance.html": {
     "path": "Column/Inheritance",
-    "link-uuid": "d13ce531-a2ac-48b7-bbfa-1aa3a55102fa",
+    "link-uuid": "2b710a63-9a4e-46ea-828b-0714898d1b15",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Item/inheritance.html": {
     "path": "Item/Inheritance",
-    "link-uuid": "b29109ba-04d3-443d-bab6-82a6a76a1e51",
+    "link-uuid": "c71b7227-c33f-4498-a720-0cd9beb0a3e2",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  "
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/hover/index.html": {
     "path": "TableConfiguration/Attributes/hover",
-    "link-uuid": "637a1c2b-a2f0-400e-b5eb-67f6102994fe",
+    "link-uuid": "10d1b0b7-91e0-459c-a446-3a71a6c6b9b0",
     "title": "hover",
     "content": "Type EBoolean Multiplicity 0..1 If checked, rows change background on mouse pointer hover."
   },
   "references/eClassifiers/TableHeader/index.html": {
-    "link-uuid": "e947c151-b88a-491e-b575-caa1de8fc5be",
+    "link-uuid": "e633bdfa-a055-476f-b3c0-4de36db12065",
     "title": "TableHeader",
     "content": "Table header."
   },
   "references/eClassifiers/BootstrapElement/inheritance.html": {
     "path": "BootstrapElement/Inheritance",
-    "link-uuid": "328a0ad9-5108-4e6a-9295-bf19bdd4f97f",
+    "link-uuid": "473b9f02-a857-44f1-801a-7e1937be1b6e",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  "
   },
   "references/eClassifiers/TableCell/references/eStructuralFeatures/color/index.html": {
     "path": "TableCell/Attributes/color",
-    "link-uuid": "a097f871-0d3c-4df9-afc0-ae5a02cacd15",
+    "link-uuid": "fa67a55e-8f60-4482-9ce5-43a09142a098",
     "title": "color",
     "content": "Type Color Multiplicity 0..1 Cell color."
   },
   "references/eClassifiers/ColumnWidth/index.html": {
-    "link-uuid": "d356024e-450d-4bf9-97da-b84e22299ce4",
+    "link-uuid": "cfdaa26e-322d-4a8c-8003-b96b85149490",
     "title": "ColumnWidth",
     "content": "Column width for a given breakpoint."
   },
   "references/eClassifiers/Appearance/index.html": {
-    "link-uuid": "11ab29d2-242e-4e5c-ba1b-defbe11f29e2",
+    "link-uuid": "f9b31615-f0d1-40f2-a0f6-8763cdb3e7c8",
     "title": "Appearance",
     "content": "This class is used for configuring common aspects of HTML and Bootstrap elements such as background, spacing, text, etc."
   },
   "references/eClassifiers/TableRowContainer/index.html": {
-    "link-uuid": "39e413bd-1daf-4367-9b07-97f635723d28",
+    "link-uuid": "be78a0b4-b23a-4244-b036-7f6f1f890823",
     "title": "TableRowContainer",
     "content": "Base class for containers of rows - table, header, body, footer."
   },
   "references/eClassifiers/TableCell/references/eStructuralFeatures/rowSpan/index.html": {
     "path": "TableCell/Attributes/rowSpan",
-    "link-uuid": "97798e65-8954-48a4-a6ea-e909ead8a31a",
+    "link-uuid": "ed72394a-caf4-4728-99df-363f7a968635",
     "title": "rowSpan",
     "content": "Type EInt Multiplicity 0..1 Row span for the cell."
   },
   "references/eClassifiers/Alert/references/eStructuralFeatures/color/index.html": {
     "path": "Alert/Attributes/color",
-    "link-uuid": "0312d5fa-1e65-408e-8fe2-5bc9673563c5",
+    "link-uuid": "c11bad84-f1bf-4fb5-830d-1710435fd72e",
     "title": "color",
     "content": "Type Color Multiplicity 0..1"
   },
   "references/eClassifiers/ColumnWidth/references/eStructuralFeatures/breakpoint/index.html": {
     "path": "ColumnWidth/Attributes/breakpoint",
-    "link-uuid": "a753c7ea-6a76-4615-bbd9-a5d23b0aea23",
+    "link-uuid": "a7570a9a-ca0d-41d0-bfda-b08561b3540b",
     "title": "breakpoint",
     "content": "Type EString Multiplicity 0..1 Breakpoint."
   },
   "references/eClassifiers/TableCell/inheritance.html": {
     "path": "TableCell/Inheritance",
-    "link-uuid": "12fc5693-546d-48a4-a515-1a6248e9866b",
+    "link-uuid": "535831b1-1562-4ca9-a1c1-e999a3eee014",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/crossFade/index.html": {
     "path": "Carousel/Attributes/crossFade",
-    "link-uuid": "8001eb53-e78a-406e-9a47-6174d5deb168",
+    "link-uuid": "3dc30766-3459-4ba7-9a0e-15a84d82a437",
     "title": "crossFade",
     "content": "Type EBoolean Multiplicity 0..1"
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/header/index.html": {
     "path": "Modal/References/header",
-    "link-uuid": "fcb42ab3-eadb-4116-8782-ded2fa41f0b6",
+    "link-uuid": "9efc0b4d-86e9-4b11-a65c-98f71aea3a0b",
     "title": "header",
     "content": "Type BootstrapElement Multiplicity 0..1 Modal header content and appearance."
   },
   "references/eClassifiers/Appearance/references/eOperations/effectiveAppearance-0/index.html": {
     "path": "Appearance/Operations/effectiveAppearance",
-    "link-uuid": "74826f80-fc7e-4c2d-aea0-08af870cbf32",
+    "link-uuid": "7eed9f42-e4c5-4154-8e8f-276c59a19c9f",
     "title": "effectiveAppearance",
     "content": "Type Appearance Multiplicity 0..1"
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/text/index.html": {
     "path": "Appearance/References/text",
-    "link-uuid": "24d2cc43-c787-4eb1-906f-1423f25645b7",
+    "link-uuid": "880ac36c-f198-4a75-9bcd-5c2fbba362af",
     "title": "text",
     "content": "Type Text Multiplicity 0..1 Text style"
   },
   "references/eClassifiers/Button/inheritance.html": {
     "path": "Button/Inheritance",
-    "link-uuid": "130718e7-b515-4a37-bc22-cf0f5ad87f15",
+    "link-uuid": "06224ebf-b4c7-49e4-8a38-b5afd85ba77a",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/TableCell/references/eStructuralFeatures/colSpan/index.html": {
     "path": "TableCell/Attributes/colSpan",
-    "link-uuid": "e778a1c5-3d8e-4c28-924a-d641b0664d38",
+    "link-uuid": "a0139cd9-c4ae-4900-9287-d21320363e91",
     "title": "colSpan",
     "content": "Type EInt Multiplicity 0..1 Column span for the cell."
   },
   "references/eClassifiers/Column/references/eStructuralFeatures/width/index.html": {
     "path": "Column/References/width",
-    "link-uuid": "01d45cbc-1b42-4066-80ca-ac093405bce7",
+    "link-uuid": "ac6c7062-f277-42e0-806b-7ffc98da4d9b",
     "title": "width",
     "content": "Type ColumnWidth Multiplicity 0..* Column widths for different breakpoints."
   },
   "references/eClassifiers/Slide/inheritance.html": {
     "path": "Slide/Inheritance",
-    "link-uuid": "a96e56f6-9c30-4de8-bd2d-cdff7e79263b",
+    "link-uuid": "0ac5d07b-b301-473a-9352-d2b26c58757e",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Modal/inheritance.html": {
     "path": "Modal/Inheritance",
-    "link-uuid": "b4a99cac-ae02-4416-a9b4-63600a258b34",
+    "link-uuid": "dabef132-4828-402d-b8dd-8f571bc68086",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/controls/index.html": {
     "path": "Carousel/Attributes/controls",
-    "link-uuid": "3442b8e2-bf75-45c2-8ef4-7530433ebf6e",
+    "link-uuid": "2cbed6c6-50fd-4de4-816d-d0333101eb96",
     "title": "controls",
     "content": "Type EBoolean Multiplicity 0..1"
   },
   "references/eClassifiers/Item/references/eStructuralFeatures/color/index.html": {
     "path": "Item/Attributes/color",
-    "link-uuid": "134ad15c-0763-4099-8d29-3518c081d0b7",
+    "link-uuid": "151f7937-6ecc-4648-b1d9-f19743010a41",
     "title": "color",
     "content": "Type Color Multiplicity 0..1 Item Bootstrap color."
   },
   "references/eClassifiers/TableRow/index.html": {
-    "link-uuid": "885f666a-371b-4724-81f4-44adc9b1556d",
+    "link-uuid": "5d36d8b6-5fec-4442-aab9-66a0943a8975",
     "title": "TableRow",
     "content": "Table row."
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/striped/index.html": {
     "path": "TableConfiguration/Attributes/striped",
-    "link-uuid": "ee1a8e17-a385-4379-9257-cb44952096f6",
+    "link-uuid": "10a2d9c2-9ff5-41e3-b563-6efc95c66668",
     "title": "striped",
     "content": "Type EBoolean Multiplicity 0..1 Striped table flag."
   },
   "references/eClassifiers/Container/index.html": {
-    "link-uuid": "80fc4987-f134-451e-850a-28590276dfdd",
+    "link-uuid": "15896ae9-3974-4478-9ecf-7f1b5b0af8cb",
     "title": "Container",
     "content": "Bootstrap layout container contains rows which in turn contain columns."
   },
   "references/eClassifiers/ActionGroup/index.html": {
-    "link-uuid": "2ebed822-882a-4199-b87a-8f2757b5530e",
+    "link-uuid": "b4faff15-7f48-40af-a3ee-79d16cd45529",
     "title": "ActionGroup",
     "content": "List group with actions (links)."
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/Float/index.html": {
     "path": "Appearance/References/Float",
-    "link-uuid": "3b80173b-b9f2-427f-91c7-6c3af4cdcdf2",
+    "link-uuid": "10f14517-ae12-4bbb-8de3-93cd8906d0e6",
     "title": "Float",
     "content": "Type Float Multiplicity 0..* Float configuration."
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/header/index.html": {
     "path": "Card/References/header",
-    "link-uuid": "e284cdf8-0f41-4f68-8a9f-ecfe245b7eb4",
+    "link-uuid": "d41b1c30-b596-4a63-8234-6be16622982a",
     "title": "header",
     "content": "Type BootstrapElement Multiplicity 0..1 Card header."
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/bottom/index.html": {
     "path": "Spacing/Attributes/bottom",
-    "link-uuid": "fb866449-54fe-4521-8224-ec63e2e1a8ae",
+    "link-uuid": "2d2c806b-2a7a-4b71-aa46-15a6688647a6",
     "title": "bottom",
     "content": "Type EBoolean Multiplicity 0..1 Bottom spacing."
   },
   "references/eClassifiers/Tag/index.html": {
-    "link-uuid": "2a4d7c15-e310-4fdb-bc03-b4c02d78582d",
+    "link-uuid": "738f9367-1d94-4ee8-a185-44bb0579d1f8",
     "title": "Tag",
     "content": "HTML tag with Bootstrap appearance"
   },
   "references/eClassifiers/Spacing/index.html": {
-    "link-uuid": "b8dad3bc-e65a-4fd8-add3-17fce64040ef",
+    "link-uuid": "a5ed36d4-140b-4ecd-b541-6b77bbc68054",
     "title": "Spacing",
     "content": "Spacing - padding or margin. Specifies size, location, and breakpoint."
   },
   "references/eClassifiers/TableConfiguration/inheritance.html": {
     "path": "TableConfiguration/Inheritance",
-    "link-uuid": "38edb09b-8a1c-4382-8c99-5eba0ba14586",
+    "link-uuid": "22110d83-5e66-43b0-a140-254a4337dea0",
     "title": "Inheritance",
     "content": "Subtypes "
   },
   "references/eClassifiers/TableSection/inheritance.html": {
     "path": "TableSection/Inheritance",
-    "link-uuid": "a03831be-b8f4-403d-b6d7-9229115ac410",
+    "link-uuid": "d0a3ac4c-b8a8-4485-9d6e-c339f30f7c45",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  "
   },
   "references/eClassifiers/Border/references/eStructuralFeatures/bottom/index.html": {
     "path": "Border/Attributes/bottom",
-    "link-uuid": "d5ba785f-89fa-41b6-a720-412ffcc3e71f",
+    "link-uuid": "c321e05a-d909-461a-ae06-91d255ed021c",
     "title": "bottom",
     "content": "Type EBoolean Multiplicity 0..1 Bottom border."
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/ride/index.html": {
     "path": "Carousel/Attributes/ride",
-    "link-uuid": "47841944-9e22-4d08-b0a8-1446a564951a",
+    "link-uuid": "41f8900c-79f2-4b4f-889c-abb0135720fa",
     "title": "ride",
     "content": "Type EBoolean Multiplicity 0..1"
   },
   "references/eClassifiers/Border/index.html": {
-    "link-uuid": "84d6e899-a1fe-4bdf-9567-44d25212ee5b",
+    "link-uuid": "a283b1ee-65ba-416a-aca5-5425cc655b31",
     "title": "Border",
     "content": "Border configuration specifies border location and color."
   },
   "references/eClassifiers/Page/references/eStructuralFeatures/cdn/index.html": {
     "path": "Page/Attributes/cdn",
-    "link-uuid": "32fba76e-f1c5-4546-9f01-98ef846d0bad",
+    "link-uuid": "e8533079-6e37-4219-bcd8-7f16eaf3b07b",
     "title": "cdn",
     "content": "Type EBoolean Multiplicity 0..1 If this attribute is true (default) then a generated page contains stylesheet and script elements pointing to Bootstrap CDN (Content Delivery Network)."
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/italic/index.html": {
     "path": "Text/Attributes/italic",
-    "link-uuid": "1b56716b-9b9f-454d-931c-81ab76d5db6d",
+    "link-uuid": "7713ba46-c317-4455-b9c9-1579de1416e4",
     "title": "italic",
     "content": "Type EBoolean Multiplicity 0..1 Italic flag."
   },
   "references/eClassifiers/AppearanceEntry/references/eStructuralFeatures/key/index.html": {
     "path": "AppearanceEntry/Attributes/key",
-    "link-uuid": "d83af305-014b-4ee7-b875-3381d9653043",
+    "link-uuid": "5311248d-ade1-4c0a-95a7-37b4dd43e6c0",
     "title": "key",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/interval/index.html": {
     "path": "Carousel/Attributes/interval",
-    "link-uuid": "2dad823b-9909-4b2a-b6f8-048027d62c01",
+    "link-uuid": "55e0d938-88cf-4d31-859b-00948b29c62b",
     "title": "interval",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Item/references/eStructuralFeatures/active/index.html": {
     "path": "Item/Attributes/active",
-    "link-uuid": "c3363075-d740-49d2-b90b-0af856a2d514",
+    "link-uuid": "67eeb14e-017f-46e5-ad44-dfc96ecfb19c",
     "title": "active",
     "content": "Type EBoolean Multiplicity 0..1 Indicates that the item is active (currently selected)."
   },
   "references/eClassifiers/Button/index.html": {
-    "link-uuid": "d4d99048-5e8a-44f9-bcd8-b598765133f0",
+    "link-uuid": "42f789e8-a479-412a-8671-28618ac5accd",
     "title": "Button",
     "content": "TODO - size - enum? Block, active, disabled."
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/nowrap/index.html": {
     "path": "Text/Attributes/nowrap",
-    "link-uuid": "4b2cebb5-5166-4ef9-8da9-054b735681c3",
+    "link-uuid": "d4392e67-e01a-4ddf-ba1a-91d829b7bf5e",
     "title": "nowrap",
     "content": "Type EBoolean Multiplicity 0..1 Prevents text from wrapping."
   },
   "references/eClassifiers/Tag/inheritance.html": {
     "path": "Tag/Inheritance",
-    "link-uuid": "71a9c70a-c64e-40b9-bdc1-ebf6d5f962da",
+    "link-uuid": "c9db0268-f600-4b37-9a73-d04583e43976",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  "
   },
   "references/eClassifiers/BootstrapElement/references/eStructuralFeatures/appearance/index.html": {
     "path": "BootstrapElement/References/appearance",
-    "link-uuid": "33a7a476-8544-4ed3-8d16-3c824e2f3d41",
+    "link-uuid": "f3e77b5b-1cda-43f1-b77f-be2b482887da",
     "title": "appearance",
     "content": "Type Appearance Multiplicity 0..1 Customizes appearance of Bootstrap element."
   },
   "references/eClassifiers/Text/index.html": {
-    "link-uuid": "e3826fa6-42c2-4160-945c-409c87e2d6d0",
+    "link-uuid": "92cb639f-50ba-46df-a280-d7057ddb6c06",
     "title": "Text",
     "content": "Text styling."
   },
   "references/eClassifiers/Border/references/eStructuralFeatures/right/index.html": {
     "path": "Border/Attributes/right",
-    "link-uuid": "a1b8066c-682f-46ac-b082-228f595fea0a",
+    "link-uuid": "acb4ad77-6390-42f1-ae9c-e39f6e4bef2c",
     "title": "right",
     "content": "Type EBoolean Multiplicity 0..1 Righ border."
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/attributes/index.html": {
     "path": "Appearance/References/attributes",
-    "link-uuid": "628bb60a-96f4-4728-8f22-f7ae37f3510a",
+    "link-uuid": "f4329572-53d1-4124-ac95-47fcb6813f40",
     "title": "attributes",
     "content": "Type Property Multiplicity 0..* HTML element (tag) attributes. Attributes defined at the appearance level overwrite attributes defined at the HTML element level. It is recommended to use one of the other. Interpolation Attribute values are interpolated, i.e. tokens in the form of default value] are replaced with the contextual values or default values, if any. Examples: ${my-style} - Token without a default value. bold - Token with a default value. Regular attributes For all top-level entries except class, style, and data attribute value is produced by converting the value to string for scalars and to JSON string for lists and maps. For attributes which do not start with data- a warning is issued if the value is not a scalar, i.e. a list or a map. Class For class attribute its value is formed by concantenating elements using space as a separator. If elements are hierarchical then class name is formed by concatenation with a dash (-) as a separator. Data If value of data attbibute is a map then keys of that map get concatenated with data using dash (-) as a separator, them same applies to nested maps. Non-map values become attribute values - scalars are converted to string, lists are converted to JSON string. Style Style can be defined as a string, list or map. If style is defined as a list, all list values are concatenated with a space as a separator - it is a convent way for long unstructured definitions. If style value is a map then the value and its contained map values are processed in the following fashion: Keys are concatenated with dash as a separator. List values are contcatenated wtih space as a separator."
   },
   "references/eClassifiers/Row/index.html": {
-    "link-uuid": "048bbe6b-6162-4212-9bc1-66ed4effdfdf",
+    "link-uuid": "fe0fba83-7878-4002-a911-6c7c6e59034c",
     "title": "Row",
     "content": "Container rows"
   },
   "index.html": {
-    "link-uuid": "eeb0d260-2f3e-4639-bc9b-a39c1873baa8",
+    "link-uuid": "0881eac2-cb3b-4298-8809-323dde48c3ef",
     "title": "bootstrap",
     "content": "Model of Bootstrap elements."
   },
   "references/eClassifiers/ActionGroupItem/inheritance.html": {
     "path": "ActionGroupItem/Inheritance",
-    "link-uuid": "58f012f4-7e40-4787-9c53-498e628b0ddf",
+    "link-uuid": "6d060616-6e9e-48ed-bb26-178713fb90d1",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  "
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/body/index.html": {
     "path": "Modal/References/body",
-    "link-uuid": "d0c8663f-9519-4eda-a041-84d952c1ebbd",
+    "link-uuid": "72fc3b62-6317-4a3e-9f82-fab44c45154f",
     "title": "body",
     "content": "Type BootstrapElement Multiplicity 0..1 Modal body content and appearance."
   },
   "references/eClassifiers/TableCell/references/eStructuralFeatures/background/index.html": {
     "path": "TableCell/Attributes/background",
-    "link-uuid": "844eae11-c76e-4ff2-a1c7-7f7f4141b5a3",
+    "link-uuid": "c4ce322e-fbf2-41c5-a914-7a44e0cefc83",
     "title": "background",
     "content": "Type Color Multiplicity 0..1 Cell background color. Displays differently from &ldquo;Color&rdquo;. Can also be specified via appearance."
   },
   "references/eClassifiers/AppearanceEntry/references/eStructuralFeatures/value/index.html": {
     "path": "AppearanceEntry/References/value",
-    "link-uuid": "10e096a3-baf4-4730-8093-d35c7c04acbd",
+    "link-uuid": "80043940-3fb1-476d-898b-0cc45584de3f",
     "title": "value",
     "content": "Type Appearance Multiplicity 1"
   },
   "references/eClassifiers/TableRow/references/eStructuralFeatures/color/index.html": {
     "path": "TableRow/Attributes/color",
-    "link-uuid": "7c3eec7b-283e-4708-8b5c-f8fd5997bbf7",
+    "link-uuid": "64d85a5a-c7d3-45a9-ac1a-984b1e6e1aa2",
     "title": "color",
     "content": "Type Color Multiplicity 0..1 Row color."
   },
   "references/eClassifiers/Slide/references/eStructuralFeatures/captions/index.html": {
     "path": "Slide/References/captions",
-    "link-uuid": "0140fb93-a87c-4532-8cac-ab2b2a628a13",
+    "link-uuid": "195e21c9-da88-4d40-bfc0-d14d590e5cb8",
     "title": "captions",
     "content": "Type EObject Multiplicity 0..*"
   },
   "references/eClassifiers/TableConfiguration/index.html": {
-    "link-uuid": "b7691109-b30b-4f94-894b-236e06a2be43",
+    "link-uuid": "fa5c9cff-3378-4bc1-95e8-752c14d2ac94",
     "title": "TableConfiguration",
     "content": "Configuration of bootstrap table"
   },
   "references/eClassifiers/Div/index.html": {
-    "link-uuid": "f0857637-78d0-47e9-99ea-a9158026907c",
+    "link-uuid": "997d925c-b902-4c21-989b-e6463f9af5d7",
     "title": "Div",
     "content": "HTML DIV with bootstrap styling"
   },
   "references/eClassifiers/Button/references/eStructuralFeatures/color/index.html": {
     "path": "Button/Attributes/color",
-    "link-uuid": "ca3d582a-f74f-4804-b230-b4e3e6abc0f3",
+    "link-uuid": "f7805c29-1d3b-4cea-adda-0739f46ca04c",
     "title": "color",
     "content": "Type Color Multiplicity 0..1"
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/children/index.html": {
     "path": "Appearance/References/children",
-    "link-uuid": "084ddc6b-fe85-4b27-9ff1-0a071b1f722a",
+    "link-uuid": "c05e9fac-fd8c-4eda-8af8-5fdd23993734",
     "title": "children",
     "content": "Type AppearanceEntry Multiplicity 0..*"
   },
   "references/eClassifiers/ActionGroup/references/eStructuralFeatures/items/index.html": {
     "path": "ActionGroup/References/items",
-    "link-uuid": "00243592-4a0c-407b-bff2-04a410e415f2",
+    "link-uuid": "a8c4cc5b-34cb-4cb0-907a-10ca701af2e2",
     "title": "items",
     "content": "Type ActionGroupItem Multiplicity 0..* Group items."
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/background/index.html": {
     "path": "Appearance/Attributes/background",
-    "link-uuid": "6ce72fb1-53fa-44d0-a644-b4bf463e8c93",
+    "link-uuid": "008bb3f8-1b81-40f9-b210-09c6fb92488d",
     "title": "background",
     "content": "Type Color Multiplicity 0..1 Bootstrap color for background."
   },
   "references/eClassifiers/Table/inheritance.html": {
     "path": "Table/Inheritance",
-    "link-uuid": "24d7126f-413d-40e0-8423-845273de8241",
+    "link-uuid": "2031a0b7-128e-4949-aa5f-7fa22f964b52",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/ContentActionGroupItem/index.html": {
-    "link-uuid": "593f2ee4-e472-4574-85a2-5c0ff432d462",
+    "link-uuid": "92de04a0-9511-4c5a-a78a-9a23996f473c",
     "title": "ContentActionGroupItem",
     "content": "Action Group Item with content. Click on the item shows the content in the content container."
   },
   "references/eClassifiers/Float/references/eStructuralFeatures/breakpoint/index.html": {
     "path": "Float/Attributes/breakpoint",
-    "link-uuid": "b41902b6-0452-4d2b-abf6-6a6405f7de34",
+    "link-uuid": "326221b1-961a-45a2-8eb0-880f94bd84bd",
     "title": "breakpoint",
     "content": "Type Breakpoint Multiplicity 0..1 Breakpoint."
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/small/index.html": {
     "path": "TableConfiguration/Attributes/small",
-    "link-uuid": "d984019c-ab68-4a13-86a4-5139d78f76ef",
+    "link-uuid": "2481b7f0-f51b-4205-a0fb-e5582b5f8280",
     "title": "small",
     "content": "Type EBoolean Multiplicity 0..1 Small table flag."
   },
   "references/eClassifiers/BootstrapElement/index.html": {
-    "link-uuid": "172e4e4c-7325-4354-a2cf-14bea4fa0c8b",
+    "link-uuid": "6ae00da7-59c0-4677-9250-9b2ea0877811",
     "title": "BootstrapElement",
     "content": "An HTML element with Bootstrap appearance."
   },
   "references/eClassifiers/Column/index.html": {
-    "link-uuid": "8ea04fdf-b4f5-47ac-9aea-c7a9c3ac17ac",
+    "link-uuid": "9e199742-ed67-4b33-9a7a-c8895e480502",
     "title": "Column",
     "content": "Container row column."
   },
   "references/eClassifiers/TableHeader/inheritance.html": {
     "path": "TableHeader/Inheritance",
-    "link-uuid": "cfecefe4-c8a1-47f0-a9af-dd6b9ad35969",
+    "link-uuid": "d6d18c82-b849-4608-944a-ab389f435383",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/weight/index.html": {
     "path": "Text/Attributes/weight",
-    "link-uuid": "0f19ba0d-ff0c-4b93-a957-19dd98c35da6",
+    "link-uuid": "7bef2d53-43ce-4716-9108-85bba32e3a97",
     "title": "weight",
     "content": "Type TextWeight Multiplicity 0..1 Text weight."
   },
   "references/eClassifiers/ActionGroupItem/index.html": {
-    "link-uuid": "e0731400-65eb-435c-be49-506626d36ecf",
+    "link-uuid": "9033e2e7-dd5d-4ea9-aff9-3bd2c959939e",
     "title": "ActionGroupItem",
     "content": "Base class for action group items"
   },
   "references/eClassifiers/Card/inheritance.html": {
     "path": "Card/Inheritance",
-    "link-uuid": "10cc5b87-eaa9-4ee2-86a2-823c2266d5fb",
+    "link-uuid": "74b4e314-d7c7-486d-9fba-3a6f7181b467",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/size/index.html": {
     "path": "Spacing/Attributes/size",
-    "link-uuid": "124f15fd-9a73-4579-8625-9e5beec314d6",
+    "link-uuid": "0525cee4-dd0d-4825-90e6-3f83b72325d0",
     "title": "size",
     "content": "Type Size Multiplicity 1 Spacing size - from 0 to 5 or auto."
   },
   "references/eClassifiers/Page/references/eStructuralFeatures/theme/index.html": {
     "path": "Page/Attributes/theme",
-    "link-uuid": "76d8d192-3642-4c3a-b3ff-2c730a5eded7",
+    "link-uuid": "24f8b777-eab1-4a19-8b92-1dc803178379",
     "title": "theme",
     "content": "Type Theme Multiplicity 0..1 Bootstrap theme. This attribute is applicable only if CDN is set to true. In this case Bootstrap stylesheets added to the page point to a specific theme."
   },
   "references/eClassifiers/TableHeader/references/eStructuralFeatures/light/index.html": {
     "path": "TableHeader/Attributes/light",
-    "link-uuid": "654f8154-77e8-4ec6-8934-09d461a9d457",
+    "link-uuid": "1a0566e0-d955-4ac3-a0fe-208c8832f6a6",
     "title": "light",
     "content": "Type EBoolean Multiplicity 0..1 Light header (mutually exclusive with dark)."
   },
   "references/eClassifiers/Container/references/eStructuralFeatures/fluid/index.html": {
     "path": "Container/Attributes/fluid",
-    "link-uuid": "2b8a3def-84e3-4b7b-afe5-482c6f67f215",
+    "link-uuid": "4adeaa73-833d-4cdf-8d52-1caec93dc1e8",
     "title": "fluid",
     "content": "Type EBoolean Multiplicity 0..1 Fluid container spans the entire width of the viewport."
   },
   "references/eClassifiers/Border/references/eStructuralFeatures/top/index.html": {
     "path": "Border/Attributes/top",
-    "link-uuid": "0fd24696-7702-4a1d-ae34-c423e3b04e94",
+    "link-uuid": "6ac23e41-8a75-424d-a39a-59cf21a7081a",
     "title": "top",
     "content": "Type EBoolean Multiplicity 0..1 Top border."
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/top/index.html": {
     "path": "Spacing/Attributes/top",
-    "link-uuid": "494054b4-cd14-4483-9849-76550a360654",
+    "link-uuid": "05a6ff64-eee6-44b4-8eaf-acf36051684f",
     "title": "top",
     "content": "Type EBoolean Multiplicity 0..1 Top spacing."
   },
   "references/eClassifiers/Slide/references/eStructuralFeatures/interval/index.html": {
     "path": "Slide/Attributes/interval",
-    "link-uuid": "ab9ca540-8fb8-4aa8-8caf-bcdfe47b0c3a",
+    "link-uuid": "05b1e3fb-06f2-4098-8af7-3ce22434ad49",
     "title": "interval",
     "content": "Type EIntegerObject Multiplicity 0..1"
   },
   "references/eClassifiers/Button/references/eStructuralFeatures/outline/index.html": {
     "path": "Button/Attributes/outline",
-    "link-uuid": "c3b84f18-e208-4f53-8497-34e23b872822",
+    "link-uuid": "88f4c8dd-fdb6-406d-b583-f6afe8a695e3",
     "title": "outline",
     "content": "Type EBoolean Multiplicity 0..1"
   },
   "references/eClassifiers/TableCell/references/eStructuralFeatures/header/index.html": {
     "path": "TableCell/Attributes/header",
-    "link-uuid": "20fa9da1-9f52-4fab-a672-c06f84ae80e0",
+    "link-uuid": "a050cab7-942b-424c-934f-f8024bdbd0c6",
     "title": "header",
     "content": "Type EBoolean Multiplicity 0..1 If true, table cell is generated as &lt;th&gt; instead of the default &lt;td&gt;."
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/body/index.html": {
     "path": "Card/References/body",
-    "link-uuid": "7384adc0-b8da-4284-b647-40310de5f28f",
+    "link-uuid": "33b827c1-4bf9-423e-8e1c-ef47e2cf4a06",
     "title": "body",
     "content": "Type BootstrapElement Multiplicity 0..1 Card body."
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/color/index.html": {
     "path": "Text/Attributes/color",
-    "link-uuid": "0fd7520f-fa59-49a3-8a52-fc1e411d7699",
+    "link-uuid": "082969f9-038d-469e-8dc5-e47d88a46749",
     "title": "color",
     "content": "Type Color Multiplicity 0..1 Text bootstrap color."
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/centered/index.html": {
     "path": "Modal/Attributes/centered",
-    "link-uuid": "1d9991a0-8637-4e43-8f2e-850cfca31506",
+    "link-uuid": "daf1698f-dac6-4512-a0fc-5d8dc96ea50d",
     "title": "centered",
     "content": "Type EBoolean Multiplicity 0..1"
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/scrollable/index.html": {
     "path": "Modal/Attributes/scrollable",
-    "link-uuid": "918d907a-5993-4c2a-abc6-5c8bdb4e7731",
+    "link-uuid": "4a0f59d9-d22c-4426-81ed-66bcec15bb90",
     "title": "scrollable",
     "content": "Type EBoolean Multiplicity 0..1"
   },
   "references/eClassifiers/Container/inheritance.html": {
     "path": "Container/Inheritance",
-    "link-uuid": "468ff1c7-8a1c-4435-a93b-38cab93d458e",
+    "link-uuid": "dd2b0cf8-f137-4cd8-b1b3-6f1d27717fbb",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/ActionGroup/inheritance.html": {
     "path": "ActionGroup/Inheritance",
-    "link-uuid": "8e477b6c-0f93-4d13-8132-cb66e6ee3d9f",
+    "link-uuid": "5da09fc4-9e37-4083-8dd4-8c9ddd9b28c6",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/monospace/index.html": {
     "path": "Text/Attributes/monospace",
-    "link-uuid": "4c96e9e3-6547-4a61-973e-60b44b09a86a",
+    "link-uuid": "15e49c4b-e20a-4eaa-b8d5-705e8ba988cc",
     "title": "monospace",
     "content": "Type EBoolean Multiplicity 0..1 Monospace flag."
   },
   "references/eClassifiers/TableRow/inheritance.html": {
     "path": "TableRow/Inheritance",
-    "link-uuid": "ec45dd70-f1e9-4049-82e6-94d436e000dc",
+    "link-uuid": "4bca6d9a-6152-4ec8-b41c-4ece8912ac12",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Border/references/eStructuralFeatures/color/index.html": {
     "path": "Border/Attributes/color",
-    "link-uuid": "890dde75-ba1a-4d22-8f4e-23046da0a517",
+    "link-uuid": "dedd4183-f7a3-45f1-ac50-ab17a6266bce",
     "title": "color",
     "content": "Type Color Multiplicity 1 Border bootstrap color."
   },
   "references/eClassifiers/ColumnWidth/references/eStructuralFeatures/width/index.html": {
     "path": "ColumnWidth/Attributes/width",
-    "link-uuid": "6d3ce256-477b-4b4b-acd0-cbbc78c189b8",
+    "link-uuid": "09740edf-f0b3-4a7d-bfee-a2f854cb32f2",
     "title": "width",
     "content": "Type EString Multiplicity 0..1 Column width."
   },
   "references/eClassifiers/Float/index.html": {
-    "link-uuid": "ddf2ce48-fee1-42d3-9efc-81a405b7c3fb",
+    "link-uuid": "9062e575-5e6b-47e2-aec8-84e9a5bf8a51",
     "title": "Float",
     "content": "Defines element floating - left or right - for a given breakpoint."
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/footer/index.html": {
     "path": "Modal/References/footer",
-    "link-uuid": "b4eca08f-79e5-460d-9d88-1a8a6fa72ea3",
+    "link-uuid": "67153474-99f9-40a1-a38e-572c8b4456a4",
     "title": "footer",
     "content": "Type BootstrapElement Multiplicity 0..1 Modal footer content and appearance."
   },
   "references/eClassifiers/Div/inheritance.html": {
     "path": "Div/Inheritance",
-    "link-uuid": "16cedc65-2c0f-4ef7-8f8a-98a5952983d4",
+    "link-uuid": "da1fb283-1ca2-474b-bee3-f7213c615166",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  "
   },
   "references/eClassifiers/Badge/inheritance.html": {
     "path": "Badge/Inheritance",
-    "link-uuid": "631ec076-c0e5-42ed-8537-f2bee7e9074f",
+    "link-uuid": "f7d1ac95-6dc1-43c3-9181-ac9b693f947d",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/indicator/index.html": {
     "path": "Carousel/Attributes/indicator",
-    "link-uuid": "9d12e586-9afa-438a-bd63-9225c029c036",
+    "link-uuid": "4fb6b560-3645-4031-a147-edd9774f19cd",
     "title": "indicator",
     "content": "Type EBoolean Multiplicity 0..1"
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/right/index.html": {
     "path": "Spacing/Attributes/right",
-    "link-uuid": "ad7ef3da-e78b-4cef-99e0-57eb680f1aa2",
+    "link-uuid": "0412b11e-8548-4340-a1d4-b33dcf3e0661",
     "title": "right",
     "content": "Type EBoolean Multiplicity 0..1 Righ spacing."
   },
   "references/eClassifiers/AppearanceEntry/index.html": {
-    "link-uuid": "8c1f7d22-504a-43df-9c8c-1cdf02cf8a35",
+    "link-uuid": "01ee65cf-0e60-42c3-9c16-53a2d2cac4a9",
     "title": "AppearanceEntry",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore"
   },
   "references/eClassifiers/TableRowContainer/references/eStructuralFeatures/rows/index.html": {
     "path": "TableRowContainer/References/rows",
-    "link-uuid": "4ca60710-4a9b-4747-a89f-5898ab6aa18c",
+    "link-uuid": "1807cc92-ecb6-4177-8fc6-376b691a8da4",
     "title": "rows",
     "content": "Type TableRow Multiplicity 0..* Table rows."
   },
   "references/eClassifiers/Float/references/eStructuralFeatures/side/index.html": {
     "path": "Float/Attributes/side",
-    "link-uuid": "fc84a651-7e08-4f0e-8a29-147f98f8ebca",
+    "link-uuid": "485c99e3-e58a-4a56-ad2e-4ce0d7c380f7",
     "title": "side",
     "content": "Type EString Multiplicity 1 Side to float to. left, right, or none."
   },
   "references/eClassifiers/TableRowContainer/inheritance.html": {
     "path": "TableRowContainer/Inheritance",
-    "link-uuid": "e5e78fe9-35c3-41ae-a841-8b2ce19c002b",
+    "link-uuid": "e6a8dc9a-0e17-4b84-8f8b-fb858cf8b103",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  "
   },
   "references/eClassifiers/ActionGroupItem/references/eStructuralFeatures/name/index.html": {
     "path": "ActionGroupItem/References/name",
-    "link-uuid": "91b5d319-bf64-4e82-b695-9008a773c5af",
+    "link-uuid": "e9f7e58d-14fd-4b43-8d92-16bb38581011",
     "title": "name",
     "content": "Type EObject Multiplicity 0..* Item name"
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/dismisser/index.html": {
     "path": "Modal/Attributes/dismisser",
-    "link-uuid": "447e033a-7f9d-45ff-8d6d-1e790822a099",
+    "link-uuid": "48fa7dbf-558a-4b51-a0ac-6fcf9728c5cc",
     "title": "dismisser",
     "content": "Type EBoolean Multiplicity 0..1"
   },
   "references/eClassifiers/Appearance/references/eOperations/effectiveAppearance-0/references/eParameters/path/index.html": {
     "path": "Appearance/Operations/effectiveAppearance/Parameters/path",
-    "link-uuid": "21549c12-f340-4f57-8025-b8abf9aad016",
+    "link-uuid": "925e029d-17ef-426e-a809-fd1ef9e9eb11",
     "title": "path",
     "content": "Type EString Multiplicity 0..1"
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/footer/index.html": {
     "path": "Card/References/footer",
-    "link-uuid": "8212da67-ae97-4d1c-ad3a-eae9b18347ef",
+    "link-uuid": "92899ed1-894e-4559-9e5e-65290c08f1e0",
     "title": "footer",
     "content": "Type BootstrapElement Multiplicity 0..1 Card footer."
   },
   "references/eClassifiers/Table/references/eStructuralFeatures/body/index.html": {
     "path": "Table/References/body",
-    "link-uuid": "d24be8c0-3d12-42d6-a97f-2f8d406c7e33",
+    "link-uuid": "34ea2d76-fe97-4341-bd5d-2311e952f365",
     "title": "body",
     "content": "Type TableSection Multiplicity 0..1 Table body."
   },
   "references/eClassifiers/Table/index.html": {
-    "link-uuid": "7cd2f40f-8329-4900-ba52-4b396537925b",
+    "link-uuid": "d487465c-135a-4d1f-be5d-51c81e22b46c",
     "title": "Table",
     "content": "Bootstrap table"
   },
   "references/eClassifiers/LinkActionGroupItem/index.html": {
-    "link-uuid": "0ec3a388-3e3c-4735-b245-01ca555522ae",
+    "link-uuid": "f0620325-efa8-462c-9184-81220aaa9954",
     "title": "LinkActionGroupItem",
     "content": "Click on the item navigates to the link URL."
   },
   "references/eClassifiers/TableCell/index.html": {
-    "link-uuid": "988bb72d-4f37-4569-b6dd-256e72ac778f",
+    "link-uuid": "6aa8a5e0-05d2-4041-ae18-e3a293916f70",
     "title": "TableCell",
     "content": "Table cell - regular or header."
   },
   "references/eClassifiers/TableRow/references/eStructuralFeatures/background/index.html": {
     "path": "TableRow/Attributes/background",
-    "link-uuid": "12dcc46e-d863-427c-a109-5dd488f9c0ec",
+    "link-uuid": "b1aa413f-f3fc-47bc-8f75-af758de2fb08",
     "title": "background",
     "content": "Type Color Multiplicity 0..1 Row background color. Displays differently from &ldquo;Color&rdquo;. Can also be specified via appearance."
   },
   "references/eClassifiers/Badge/references/eStructuralFeatures/color/index.html": {
     "path": "Badge/Attributes/color",
-    "link-uuid": "cbbb12c1-4c2b-4166-89a1-c5a8f439f7d9",
+    "link-uuid": "86fa40e1-181f-4102-8804-38a48fb8f79a",
     "title": "color",
     "content": "Type Color Multiplicity 0..1"
   },
   "references/eClassifiers/LinkActionGroupItem/inheritance.html": {
     "path": "LinkActionGroupItem/Inheritance",
-    "link-uuid": "54a59ced-02f0-42ee-8667-451c9be6e265",
+    "link-uuid": "41dcd0f1-2d5b-4808-bedc-871a5206999b",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/y/index.html": {
     "path": "Spacing/Attributes/y",
-    "link-uuid": "5b62408c-a161-4543-9adb-7ff7c21a3cdc",
+    "link-uuid": "6e11d54e-14a8-4f5d-a5d2-b4f06dd03487",
     "title": "y",
     "content": "Type EBoolean Multiplicity 0..1 Vertical spacing."
   },
   "references/eClassifiers/Alert/inheritance.html": {
     "path": "Alert/Inheritance",
-    "link-uuid": "5c91ca9c-a4ca-4820-91c7-8d260f508527",
+    "link-uuid": "fce53117-7f1e-48aa-89c2-7e5c1993d5c7",
     "title": "Inheritance",
     "content": "Supertypes "
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/margin/index.html": {
     "path": "Appearance/References/margin",
-    "link-uuid": "819140d1-1550-4bca-b8fa-65370278088c",
+    "link-uuid": "b097cc4c-f687-449e-82df-79c894a8c699",
     "title": "margin",
     "content": "Type Spacing Multiplicity 0..* Margin configuration."
   },
   "references/eClassifiers/Row/references/eStructuralFeatures/columns/index.html": {
     "path": "Row/References/columns",
-    "link-uuid": "730302ef-0ac4-47ad-b78e-189c44f83d5c",
+    "link-uuid": "13e727e2-753c-414c-818f-fa5561b48b00",
     "title": "columns",
     "content": "Type Column Multiplicity 0..* Row columns."
   }
