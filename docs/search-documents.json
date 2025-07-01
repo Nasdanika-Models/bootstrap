@@ -1,1016 +1,1016 @@
 {
   "references/eClassifiers/Card/index.html": {
-    "link-uuid": "ea83ec45-1e09-47d9-bffb-0a014d4ffd07",
+    "link-uuid": "a436878a-fa36-4fb7-8a09-d44b6c0b0507",
     "title": "Card",
     "content": "Bootstrap card.",
-    "timestamp": 1751288323883
+    "timestamp": 1751334726166
   },
   "references/eClassifiers/Table/references/eStructuralFeatures/header/index.html": {
     "path": "Table/References/header",
-    "link-uuid": "816f6bcc-fc8e-455d-aa7d-5a09f91d2ea6",
+    "link-uuid": "0da67d91-2b0b-448a-b34d-e4d7b61ba239",
     "title": "header",
     "content": "Type TableHeader Multiplicity 0..1 Table header.",
-    "timestamp": 1751288324298
+    "timestamp": 1751334726585
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/dark/index.html": {
     "path": "TableConfiguration/Attributes/dark",
-    "link-uuid": "6cce84fd-0473-47ee-ab93-21de076ca6c6",
+    "link-uuid": "451e5490-4089-405f-a9a0-2226b7959c4b",
     "title": "dark",
     "content": "Type EBoolean Multiplicity 0..1 Dark table flag.",
-    "timestamp": 1751288324344
+    "timestamp": 1751334726633
   },
   "references/eClassifiers/ContentActionGroupItem/inheritance.html": {
     "path": "ContentActionGroupItem/Inheritance",
-    "link-uuid": "a05be964-1e15-44de-aba6-a1d08d92fc8e",
+    "link-uuid": "97458970-5ed8-4ed1-83f7-c1f4418a1b0b",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288324004
+    "timestamp": 1751334726289
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/padding/index.html": {
     "path": "Appearance/References/padding",
-    "link-uuid": "9591ff3f-233c-4d59-8259-fcc7c4f456a3",
+    "link-uuid": "8a1ead88-b514-4d5a-9c8a-8ab167a45022",
     "title": "padding",
     "content": "Type Spacing Multiplicity 0..* Padding configuration.",
-    "timestamp": 1751288323734
+    "timestamp": 1751334726014
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/slides/index.html": {
     "path": "Carousel/References/slides",
-    "link-uuid": "b69e0773-0548-44d8-93d4-3557b6314b54",
+    "link-uuid": "d0aeaa6d-f3a6-4207-9821-904831530d0c",
     "title": "slides",
     "content": "Type Slide Multiplicity 0..*",
-    "timestamp": 1751288323920
+    "timestamp": 1751334726204
   },
   "references/eClassifiers/Page/inheritance.html": {
     "path": "Page/Inheritance",
-    "link-uuid": "9fcda542-5c38-4b9a-8df4-2e5a6c49526e",
+    "link-uuid": "75e163f9-334b-4ea7-92e1-bae5f4ee2038",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288324198
+    "timestamp": 1751334726477
   },
   "references/eClassifiers/Table/references/eStructuralFeatures/footer/index.html": {
     "path": "Table/References/footer",
-    "link-uuid": "84771498-c23c-4cfe-94b4-629065185f4b",
+    "link-uuid": "1d3f7bfb-fae2-4bba-896d-58ad88f2a411",
     "title": "footer",
     "content": "Type TableSection Multiplicity 0..1 Table footer.",
-    "timestamp": 1751288324296
+    "timestamp": 1751334726584
   },
   "references/eClassifiers/TableSection/index.html": {
-    "link-uuid": "114e8876-b8ac-4b81-9419-0810aad9e29b",
+    "link-uuid": "156e2375-5483-448a-8826-ed216ebde936",
     "title": "TableSection",
     "content": "Table section - body or footer, header has its own class.",
-    "timestamp": 1751288324423
+    "timestamp": 1751334726714
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/transform/index.html": {
     "path": "Text/Attributes/transform",
-    "link-uuid": "e74c1af9-f483-4ff7-a104-c8dab126c53a",
+    "link-uuid": "44740b58-4fbc-4041-8f72-f05320f71ff0",
     "title": "transform",
     "content": "Type TextTransform Multiplicity 0..1 Text case transformation.",
-    "timestamp": 1751288324469
+    "timestamp": 1751334726762
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/border/index.html": {
     "path": "Appearance/References/border",
-    "link-uuid": "df978366-cdeb-4519-9864-b97de6e394cc",
+    "link-uuid": "9795efd6-020f-4920-80ca-f7ee6488be4f",
     "title": "border",
     "content": "Type Border Multiplicity 0..4 Border configuration.",
-    "timestamp": 1751288323727
+    "timestamp": 1751334726006
   },
   "references/eClassifiers/TableHeader/references/eStructuralFeatures/dark/index.html": {
     "path": "TableHeader/Attributes/dark",
-    "link-uuid": "44a8a1de-d33f-42f8-87a8-7e92a0dd7d06",
+    "link-uuid": "b6dc1338-2317-440e-a77e-f58a27d8de90",
     "title": "dark",
     "content": "Type EBoolean Multiplicity 0..1 Dark header (mutually exclusive with light).",
-    "timestamp": 1751288324366
+    "timestamp": 1751334726655
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/alignment/index.html": {
     "path": "Text/Attributes/alignment",
-    "link-uuid": "0226e5e7-574c-40e4-ab2f-834eab54ceb0",
+    "link-uuid": "495338c9-8e7a-424e-956c-39ff6adc1541",
     "title": "alignment",
     "content": "Type TextAlignment Multiplicity 0..1 Text alignment.",
-    "timestamp": 1751288324461
+    "timestamp": 1751334726754
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/left/index.html": {
     "path": "Spacing/Attributes/left",
-    "link-uuid": "235dc924-a322-4880-8ae4-1da6b2bb6d4c",
+    "link-uuid": "3f54644d-a949-42db-b006-86ec6b9423f8",
     "title": "left",
     "content": "Type EBoolean Multiplicity 0..1 Left spacing.",
-    "timestamp": 1751288324268
+    "timestamp": 1751334726553
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/x/index.html": {
     "path": "Spacing/Attributes/x",
-    "link-uuid": "3ca3c6e1-81b3-41b9-bb25-fe475b21fb5c",
+    "link-uuid": "1137a0f3-c724-4a38-90c9-22f827201175",
     "title": "x",
     "content": "Type EBoolean Multiplicity 0..1 Horizontal spacing.",
-    "timestamp": 1751288324275
+    "timestamp": 1751334726560
   },
   "references/eClassifiers/Container/references/eStructuralFeatures/rows/index.html": {
     "path": "Container/References/rows",
-    "link-uuid": "6c06f345-ddd0-477c-8788-90648c84ba8e",
+    "link-uuid": "109e1e7e-3282-492c-acf4-4c2bd20f5ce3",
     "title": "rows",
     "content": "Type Row Multiplicity 0..* Container rows.",
-    "timestamp": 1751288323987
+    "timestamp": 1751334726272
   },
   "references/eClassifiers/Item/index.html": {
-    "link-uuid": "478ba978-efc8-4fdc-9ece-a600fbd9dde9",
+    "link-uuid": "4882d1fa-ca96-4a51-8b01-1be142f7bfc1",
     "title": "Item",
     "content": "Base class for model elements which can be active, disabled, and have color.",
-    "timestamp": 1751288324101
+    "timestamp": 1751334726380
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/size/index.html": {
     "path": "Modal/Attributes/size",
-    "link-uuid": "dd9b513f-266a-4bea-bc83-961e229e668d",
+    "link-uuid": "254e4bd9-8311-49b3-ad03-4710e97bdfb9",
     "title": "size",
     "content": "Type EString Multiplicity 0..1 Modal size - small, large, or extra-large.",
-    "timestamp": 1751288324168
+    "timestamp": 1751334726445
   },
   "references/eClassifiers/Item/references/eStructuralFeatures/disabled/index.html": {
     "path": "Item/Attributes/disabled",
-    "link-uuid": "aecb52e0-bb42-42b6-9f64-18ca83170779",
+    "link-uuid": "e919cafd-e2f7-4c10-8edd-27f291ec525a",
     "title": "disabled",
     "content": "Type EBoolean Multiplicity 0..1 Indicates that the item is disabled and cannot be activated/selected.",
-    "timestamp": 1751288324108
+    "timestamp": 1751334726387
   },
   "references/eClassifiers/Border/references/eStructuralFeatures/left/index.html": {
     "path": "Border/Attributes/left",
-    "link-uuid": "a193bc1f-66e1-4a44-b506-24dd8015e27f",
+    "link-uuid": "94287528-df28-4c32-acb0-b352e14282d2",
     "title": "left",
     "content": "Type EBoolean Multiplicity 0..1 Left border.",
-    "timestamp": 1751288323820
+    "timestamp": 1751334726103
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/truncate/index.html": {
     "path": "Text/Attributes/truncate",
-    "link-uuid": "53c3097e-ed21-4db8-820e-2654160103a6",
+    "link-uuid": "53601a9b-44eb-4e3f-aea2-a56efff7ce65",
     "title": "truncate",
     "content": "Type EBoolean Multiplicity 0..1 Use to truncate the text with an ellipsis.",
-    "timestamp": 1751288324471
+    "timestamp": 1751334726764
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/breakpoint/index.html": {
     "path": "Spacing/Attributes/breakpoint",
-    "link-uuid": "e0e4c1b4-9055-4334-b6f2-0495014a747d",
+    "link-uuid": "9693a0ca-2f49-4142-8125-2e0921e4b706",
     "title": "breakpoint",
     "content": "Type Breakpoint Multiplicity 0..1 Spacing breakpoint.",
-    "timestamp": 1751288324266
+    "timestamp": 1751334726551
   },
   "references/eClassifiers/Row/inheritance.html": {
     "path": "Row/Inheritance",
-    "link-uuid": "2b5e3041-64d6-4bfc-8bc4-74af8fb0457f",
+    "link-uuid": "201e884f-d92b-444e-a1de-7cf49d4294fb",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288324219
+    "timestamp": 1751334726500
   },
   "references/eClassifiers/ActionGroup/references/eStructuralFeatures/flush/index.html": {
     "path": "ActionGroup/Attributes/flush",
-    "link-uuid": "1ff9f53b-19e7-4b9f-8ce8-2503a6877012",
+    "link-uuid": "bb6f66af-590a-420e-9b58-81796789309e",
     "title": "flush",
     "content": "Type EBoolean Multiplicity 0..1 Removes borders to render action group items edge-to-edge in a parent container.",
-    "timestamp": 1751288323617
+    "timestamp": 1751334725929
   },
   "references/eClassifiers/Carousel/inheritance.html": {
     "path": "Carousel/Inheritance",
-    "link-uuid": "6e54b84d-8e84-41f4-90f4-96c8d4cef897",
+    "link-uuid": "172f1608-5dc1-4942-b6b9-668b5a2d67c1",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288323907
+    "timestamp": 1751334726191
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/borderless/index.html": {
     "path": "TableConfiguration/Attributes/borderless",
-    "link-uuid": "21fb462e-189d-4b50-9c4d-40181da0b6a6",
+    "link-uuid": "9b7e53b3-1417-497f-b8f6-f690ac21c174",
     "title": "borderless",
     "content": "Type EBoolean Multiplicity 0..1 Borderless table flag.",
-    "timestamp": 1751288324342
+    "timestamp": 1751334726631
   },
   "references/eClassifiers/TableRow/references/eStructuralFeatures/cells/index.html": {
     "path": "TableRow/References/cells",
-    "link-uuid": "9ea27b05-84d0-417f-9e2f-03314a430681",
+    "link-uuid": "839049e9-d9d6-4a24-bc9d-e35459a37e98",
     "title": "cells",
     "content": "Type TableCell Multiplicity 0..* Table row cells.",
-    "timestamp": 1751288324389
+    "timestamp": 1751334726679
   },
   "references/eClassifiers/ContentActionGroupItem/references/eStructuralFeatures/content/index.html": {
     "path": "ContentActionGroupItem/References/content",
-    "link-uuid": "2125108f-0164-447a-9fb7-bc9125eaae19",
+    "link-uuid": "be93a041-64d7-40c0-a0c6-22182a9501f1",
     "title": "content",
     "content": "Type EObject Multiplicity 0..* Container content. Content elements are adapted to ${javadoc/org.nasdanika.common.SupplierFactory} for generation of HTML content.",
-    "timestamp": 1751288324007
+    "timestamp": 1751334726293
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/bordered/index.html": {
     "path": "TableConfiguration/Attributes/bordered",
-    "link-uuid": "77408d26-de25-4df1-a87f-d18411fd97e9",
+    "link-uuid": "bd569919-3361-45f5-b8c1-786e7524d635",
     "title": "bordered",
     "content": "Type EBoolean Multiplicity 0..1 Bordered table flag.",
-    "timestamp": 1751288324340
+    "timestamp": 1751334726629
   },
   "references/eClassifiers/LinkActionGroupItem/references/eStructuralFeatures/url/index.html": {
     "path": "LinkActionGroupItem/Attributes/url",
-    "link-uuid": "3ae081a0-8f7f-4371-9106-7ad232c23539",
+    "link-uuid": "3d7a3990-c1a1-4705-9c84-08c865497c4b",
     "title": "url",
     "content": "Type EString Multiplicity 1 Link URL.",
-    "timestamp": 1751288324127
+    "timestamp": 1751334726407
   },
   "references/eClassifiers/Page/index.html": {
-    "link-uuid": "cc4373b9-0568-4384-a19f-586bd847245a",
+    "link-uuid": "5568fd4d-6eca-43b7-a500-3f12450f89e6",
     "title": "Page",
     "content": "HTML page with bootstrap elements in the head - meta, stylesheets, and scripts. Overview video in Russian.",
-    "timestamp": 1751288324197
+    "timestamp": 1751334726476
   },
   "references/eClassifiers/Column/inheritance.html": {
     "path": "Column/Inheritance",
-    "link-uuid": "39e61e01-ae42-475a-b3b5-da2bd0ccbcab",
+    "link-uuid": "553c19da-41b5-4c69-83ae-2b13aa910efa",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288323945
+    "timestamp": 1751334726230
   },
   "references/eClassifiers/Item/inheritance.html": {
     "path": "Item/Inheritance",
-    "link-uuid": "16b3a0af-7d42-49d9-8c6f-1300bd8b89e7",
+    "link-uuid": "30c9a080-f941-4cd7-9cd2-33d791707f96",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1751288324103
+    "timestamp": 1751334726382
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/hover/index.html": {
     "path": "TableConfiguration/Attributes/hover",
-    "link-uuid": "417fa3aa-f43e-40b6-83bc-1e43dc18c4db",
+    "link-uuid": "fca3730a-1cb7-4cba-a998-ebe02c6131f7",
     "title": "hover",
     "content": "Type EBoolean Multiplicity 0..1 If checked, rows change background on mouse pointer hover.",
-    "timestamp": 1751288324346
+    "timestamp": 1751334726635
   },
   "references/eClassifiers/TableHeader/index.html": {
-    "link-uuid": "3e17cb37-6f53-4b98-bf9b-143fb1fbd6ff",
+    "link-uuid": "e239625d-7889-4a46-9736-d1e1d5f154d6",
     "title": "TableHeader",
     "content": "Table header.",
-    "timestamp": 1751288324360
+    "timestamp": 1751334726650
   },
   "references/eClassifiers/BootstrapElement/inheritance.html": {
     "path": "BootstrapElement/Inheritance",
-    "link-uuid": "86539522-fe0c-4f9b-9d39-81ae65a6d6e0",
+    "link-uuid": "c55c8966-adae-4541-a628-1b67d8a38847",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1751288323795
+    "timestamp": 1751334726076
   },
   "references/eClassifiers/TableCell/references/eStructuralFeatures/color/index.html": {
     "path": "TableCell/Attributes/color",
-    "link-uuid": "924a8b08-2560-4aaa-a549-62089688f52f",
+    "link-uuid": "bc32f22b-576a-4043-aece-9a73dad087ed",
     "title": "color",
     "content": "Type Color Multiplicity 0..1 Cell color.",
-    "timestamp": 1751288324318
+    "timestamp": 1751334726607
   },
   "references/eClassifiers/ColumnWidth/index.html": {
-    "link-uuid": "3e4b9f9d-44bb-4c1e-9519-34d20149da73",
+    "link-uuid": "aabdb513-a448-4c48-8a12-2668b8a737b6",
     "title": "ColumnWidth",
     "content": "Column width for a given breakpoint.",
-    "timestamp": 1751288323962
+    "timestamp": 1751334726247
   },
   "references/eClassifiers/Appearance/index.html": {
-    "link-uuid": "e79165e3-1cb9-41ca-a7e2-62d16c15fb32",
+    "link-uuid": "62bb7efc-63d6-4359-a11c-ef14eef42a4f",
     "title": "Appearance",
     "content": "This class is used for configuring common aspects of HTML and Bootstrap elements such as background, spacing, text, etc.",
-    "timestamp": 1751288323712
+    "timestamp": 1751334725990
   },
   "references/eClassifiers/TableRowContainer/index.html": {
-    "link-uuid": "18d315d1-589d-4838-b4d6-7de9929994bd",
+    "link-uuid": "a40daee1-7240-4bfb-b358-b48c33f531ed",
     "title": "TableRowContainer",
     "content": "Base class for containers of rows - table, header, body, footer.",
-    "timestamp": 1751288324405
+    "timestamp": 1751334726696
   },
   "references/eClassifiers/TableCell/references/eStructuralFeatures/rowSpan/index.html": {
     "path": "TableCell/Attributes/rowSpan",
-    "link-uuid": "688510bd-303d-4a81-8970-c94886e75607",
+    "link-uuid": "46ae7236-4e73-4291-9111-d95a23bdcf05",
     "title": "rowSpan",
     "content": "Type EInt Multiplicity 0..1 Row span for the cell.",
-    "timestamp": 1751288324324
+    "timestamp": 1751334726612
   },
   "references/eClassifiers/Alert/references/eStructuralFeatures/color/index.html": {
     "path": "Alert/Attributes/color",
-    "link-uuid": "f99a062b-a8f4-4f10-87cf-6896ccda8475",
+    "link-uuid": "8297196f-00cc-423b-abea-7a671112c676",
     "title": "color",
     "content": "Type Color Multiplicity 0..1",
-    "timestamp": 1751288323693
+    "timestamp": 1751334725971
   },
   "references/eClassifiers/ColumnWidth/references/eStructuralFeatures/breakpoint/index.html": {
     "path": "ColumnWidth/Attributes/breakpoint",
-    "link-uuid": "04dae400-fc71-4bf8-a91f-0f8b3c9cdf52",
+    "link-uuid": "7aa4ad46-b1d9-4bcd-99a4-27cc614341eb",
     "title": "breakpoint",
     "content": "Type EString Multiplicity 0..1 Breakpoint.",
-    "timestamp": 1751288323966
+    "timestamp": 1751334726251
   },
   "references/eClassifiers/TableCell/inheritance.html": {
     "path": "TableCell/Inheritance",
-    "link-uuid": "dd1f7a73-09e2-465a-86d1-404d89e2f6e5",
+    "link-uuid": "29d63c4c-1215-492d-b1c0-e8313f7a0229",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288324313
+    "timestamp": 1751334726602
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/crossFade/index.html": {
     "path": "Carousel/Attributes/crossFade",
-    "link-uuid": "84948567-5fe5-41e7-9b08-623eed3b89a6",
+    "link-uuid": "bb456a03-4333-4699-9d9d-1e459d8a3f94",
     "title": "crossFade",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1751288323913
+    "timestamp": 1751334726197
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/header/index.html": {
     "path": "Modal/References/header",
-    "link-uuid": "fad4a94f-11ea-439d-95a3-9867c463cb4e",
+    "link-uuid": "eb310e50-c0a0-4810-ba98-9a080b9ef5c9",
     "title": "header",
     "content": "Type BootstrapElement Multiplicity 0..1 Modal header content and appearance.",
-    "timestamp": 1751288324165
+    "timestamp": 1751334726441
   },
   "references/eClassifiers/Appearance/references/eOperations/effectiveAppearance-0/index.html": {
     "path": "Appearance/Operations/effectiveAppearance",
-    "link-uuid": "669302da-41c5-4c6a-96b3-990a91ee1c2a",
+    "link-uuid": "2e421758-b6e3-45ed-acc1-d89d2dcb95cd",
     "title": "effectiveAppearance",
     "content": "Type Appearance Multiplicity 0..1",
-    "timestamp": 1751288323718
+    "timestamp": 1751334725996
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/text/index.html": {
     "path": "Appearance/References/text",
-    "link-uuid": "97564bc0-24e3-40bb-b4e7-e967c780e415",
+    "link-uuid": "06560f16-6655-4eff-a173-09e1bda39958",
     "title": "text",
     "content": "Type Text Multiplicity 0..1 Text style",
-    "timestamp": 1751288323736
+    "timestamp": 1751334726016
   },
   "references/eClassifiers/Button/inheritance.html": {
     "path": "Button/Inheritance",
-    "link-uuid": "d2ad0032-18c5-40d1-b0a3-c845476d0448",
+    "link-uuid": "fa0edf6b-6865-4549-8501-6fcbb993c32c",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288323847
+    "timestamp": 1751334726131
   },
   "references/eClassifiers/TableCell/references/eStructuralFeatures/colSpan/index.html": {
     "path": "TableCell/Attributes/colSpan",
-    "link-uuid": "614bee03-3006-46a7-babc-e140f5e883e2",
+    "link-uuid": "9cb1d1e9-43c4-4daa-b407-15279578edb3",
     "title": "colSpan",
     "content": "Type EInt Multiplicity 0..1 Column span for the cell.",
-    "timestamp": 1751288324320
+    "timestamp": 1751334726609
   },
   "references/eClassifiers/Column/references/eStructuralFeatures/width/index.html": {
     "path": "Column/References/width",
-    "link-uuid": "448643f1-446e-4b62-b5cf-acbe32f3931a",
+    "link-uuid": "c8e76a89-de0a-46d7-9ff6-f8a1d511adfd",
     "title": "width",
     "content": "Type ColumnWidth Multiplicity 0..* Column widths for different breakpoints.",
-    "timestamp": 1751288323948
+    "timestamp": 1751334726234
   },
   "references/eClassifiers/Slide/inheritance.html": {
     "path": "Slide/Inheritance",
-    "link-uuid": "5e9e9c28-95e2-44b0-b350-faa6b0963d92",
+    "link-uuid": "4b14055e-dcdb-454f-91a8-ec23b901e696",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288324240
+    "timestamp": 1751334726523
   },
   "references/eClassifiers/Modal/inheritance.html": {
     "path": "Modal/Inheritance",
-    "link-uuid": "735f3ac7-af61-4e52-8f4e-6ec2ca5bc66c",
+    "link-uuid": "6dfb33c1-dd43-4c85-99a1-0ef68d9d8aeb",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288324153
+    "timestamp": 1751334726430
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/controls/index.html": {
     "path": "Carousel/Attributes/controls",
-    "link-uuid": "ededfbc8-bc0c-4cb9-9f17-4f9545524786",
+    "link-uuid": "51427133-7159-47cd-bd00-9a2be355aa29",
     "title": "controls",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1751288323911
+    "timestamp": 1751334726195
   },
   "references/eClassifiers/Item/references/eStructuralFeatures/color/index.html": {
     "path": "Item/Attributes/color",
-    "link-uuid": "cb2f89a5-f4f6-4a52-9cf1-b0e3750d6c38",
+    "link-uuid": "77f746f3-ad5c-40c4-b2df-76db85988fed",
     "title": "color",
     "content": "Type Color Multiplicity 0..1 Item Bootstrap color.",
-    "timestamp": 1751288324106
+    "timestamp": 1751334726386
   },
   "references/eClassifiers/TableRow/index.html": {
-    "link-uuid": "9515b59b-7626-4563-bd04-c8f8c1e20e89",
+    "link-uuid": "e31fa1f8-cf7c-4ec5-a6b0-ced160e357b4",
     "title": "TableRow",
     "content": "Table row.",
-    "timestamp": 1751288324381
+    "timestamp": 1751334726671
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/striped/index.html": {
     "path": "TableConfiguration/Attributes/striped",
-    "link-uuid": "1868804d-05ac-450a-8760-511ffdd28d62",
+    "link-uuid": "d026a87f-1b96-4ee9-8ebd-e5b0882a8333",
     "title": "striped",
     "content": "Type EBoolean Multiplicity 0..1 Striped table flag.",
-    "timestamp": 1751288324349
+    "timestamp": 1751334726639
   },
   "references/eClassifiers/Container/index.html": {
-    "link-uuid": "5b1fc2ac-2f2a-45bf-bdc2-60d3294caf33",
+    "link-uuid": "c2b61a92-2ef1-454b-8a91-4abf2b380d38",
     "title": "Container",
     "content": "Bootstrap layout container contains rows which in turn contain columns.",
-    "timestamp": 1751288323979
+    "timestamp": 1751334726265
   },
   "references/eClassifiers/ActionGroup/index.html": {
-    "link-uuid": "970d4fff-d78b-48fc-bbf1-5089577611fc",
+    "link-uuid": "0df7c5d7-e5d7-4460-a802-b914fc44bb94",
     "title": "ActionGroup",
     "content": "List group with actions (links).",
-    "timestamp": 1751288323611
+    "timestamp": 1751334725878
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/Float/index.html": {
     "path": "Appearance/References/Float",
-    "link-uuid": "736bfac8-9c28-4f43-90e3-84c64a113fdf",
+    "link-uuid": "ce403909-110c-4cd5-98b2-760af3e643d7",
     "title": "Float",
     "content": "Type Float Multiplicity 0..* Float configuration.",
-    "timestamp": 1751288323731
+    "timestamp": 1751334726010
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/header/index.html": {
     "path": "Card/References/header",
-    "link-uuid": "3454f4fc-56a7-46a5-a54c-5a01bafb0252",
+    "link-uuid": "3efa7b70-ef2c-4b31-9d1a-b9f5d1b96200",
     "title": "header",
     "content": "Type BootstrapElement Multiplicity 0..1 Card header.",
-    "timestamp": 1751288323892
+    "timestamp": 1751334726175
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/bottom/index.html": {
     "path": "Spacing/Attributes/bottom",
-    "link-uuid": "47fd6a86-ce42-4e68-8b53-37846ef4c1f4",
+    "link-uuid": "2b0cade6-3c76-4f49-9f01-5cf1fc56d266",
     "title": "bottom",
     "content": "Type EBoolean Multiplicity 0..1 Bottom spacing.",
-    "timestamp": 1751288324264
+    "timestamp": 1751334726549
   },
   "references/eClassifiers/Tag/index.html": {
-    "link-uuid": "931ed01f-75a2-4b6d-a94d-90cb0451d7ca",
+    "link-uuid": "01bbccfc-9c76-4dd6-862a-99413a451747",
     "title": "Tag",
     "content": "HTML tag with Bootstrap appearance",
-    "timestamp": 1751288324439
+    "timestamp": 1751334726731
   },
   "references/eClassifiers/Spacing/index.html": {
-    "link-uuid": "01560b1e-4f0a-437a-9396-f20333535e8f",
+    "link-uuid": "f1ee92e6-b0f0-476c-8c9c-02e18abf7add",
     "title": "Spacing",
     "content": "Spacing - padding or margin. Specifies size, location, and breakpoint.",
-    "timestamp": 1751288324261
+    "timestamp": 1751334726546
   },
   "references/eClassifiers/TableConfiguration/inheritance.html": {
     "path": "TableConfiguration/Inheritance",
-    "link-uuid": "7436124e-bf19-43b6-bee1-dfb87307d812",
+    "link-uuid": "42aa14a4-3ff4-4ff4-8874-ad39fbb3a719",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1751288324339
+    "timestamp": 1751334726627
   },
   "references/eClassifiers/TableSection/inheritance.html": {
     "path": "TableSection/Inheritance",
-    "link-uuid": "6fdc897a-77c9-4c29-ba3d-355aac7a5768",
+    "link-uuid": "283b1bdf-ea44-4256-b480-e0a4319b07e8",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1751288324425
+    "timestamp": 1751334726716
   },
   "references/eClassifiers/Border/references/eStructuralFeatures/bottom/index.html": {
     "path": "Border/Attributes/bottom",
-    "link-uuid": "0d5493c0-356e-44ad-b3c4-0a63d042b330",
+    "link-uuid": "f27d453c-a43f-4122-bcca-8ba17ab1b3aa",
     "title": "bottom",
     "content": "Type EBoolean Multiplicity 0..1 Bottom border.",
-    "timestamp": 1751288323816
+    "timestamp": 1751334726099
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/ride/index.html": {
     "path": "Carousel/Attributes/ride",
-    "link-uuid": "7eaf2a8f-1465-434d-bb6b-04acdf44eeb7",
+    "link-uuid": "9855598f-3fee-4c48-8c04-88cf902f21f3",
     "title": "ride",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1751288323919
+    "timestamp": 1751334726202
   },
   "references/eClassifiers/Border/index.html": {
-    "link-uuid": "b4f40718-dbac-4522-bca8-38f43537b229",
+    "link-uuid": "85552cf9-e820-4b9d-8b9b-278c40298b62",
     "title": "Border",
     "content": "Border configuration specifies border location and color.",
-    "timestamp": 1751288323812
+    "timestamp": 1751334726095
   },
   "references/eClassifiers/Page/references/eStructuralFeatures/cdn/index.html": {
     "path": "Page/Attributes/cdn",
-    "link-uuid": "120d228e-d337-4450-9d28-1abf291489a3",
+    "link-uuid": "47600a60-9b45-49a7-9495-e955318ce206",
     "title": "cdn",
     "content": "Type EBoolean Multiplicity 0..1 If this attribute is true (default) then a generated page contains stylesheet and script elements pointing to Bootstrap CDN (Content Delivery Network).",
-    "timestamp": 1751288324202
+    "timestamp": 1751334726481
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/italic/index.html": {
     "path": "Text/Attributes/italic",
-    "link-uuid": "d9a13b0d-c561-41ee-8521-f675594c53e5",
+    "link-uuid": "8b8cd7c4-09b5-487c-bb94-71da3b935764",
     "title": "italic",
     "content": "Type EBoolean Multiplicity 0..1 Italic flag.",
-    "timestamp": 1751288324464
+    "timestamp": 1751334726757
   },
   "references/eClassifiers/AppearanceEntry/references/eStructuralFeatures/key/index.html": {
     "path": "AppearanceEntry/Attributes/key",
-    "link-uuid": "a728130b-5964-465d-9921-decc9ca4de82",
+    "link-uuid": "2f56fc18-59cc-4eac-8cab-f8755be5f6e6",
     "title": "key",
     "content": "Type EString Multiplicity 0..1",
-    "timestamp": 1751288323753
+    "timestamp": 1751334726033
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/interval/index.html": {
     "path": "Carousel/Attributes/interval",
-    "link-uuid": "3c9d7c47-8f17-40ed-92ef-418715f5c748",
+    "link-uuid": "1cb681d1-9255-4cf3-98c5-07dffc080830",
     "title": "interval",
     "content": "Type EString Multiplicity 0..1",
-    "timestamp": 1751288323916
+    "timestamp": 1751334726200
   },
   "references/eClassifiers/Item/references/eStructuralFeatures/active/index.html": {
     "path": "Item/Attributes/active",
-    "link-uuid": "32426141-1494-49b2-8269-f0bd1900f2f9",
+    "link-uuid": "3e88741c-b242-414c-b7af-58fe59c66861",
     "title": "active",
     "content": "Type EBoolean Multiplicity 0..1 Indicates that the item is active (currently selected).",
-    "timestamp": 1751288324105
+    "timestamp": 1751334726384
   },
   "references/eClassifiers/Button/index.html": {
-    "link-uuid": "f5167f6b-1458-48a4-a2c4-f918b39093bb",
+    "link-uuid": "294609f2-54a9-45dc-bf75-43bc84360f15",
     "title": "Button",
     "content": "TODO - size - enum? Block, active, disabled.",
-    "timestamp": 1751288323845
+    "timestamp": 1751334726129
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/nowrap/index.html": {
     "path": "Text/Attributes/nowrap",
-    "link-uuid": "43a4605e-1629-4187-8a77-eac0d3a36bb8",
+    "link-uuid": "8fda657f-4b91-4933-84c8-be72c319d68d",
     "title": "nowrap",
     "content": "Type EBoolean Multiplicity 0..1 Prevents text from wrapping.",
-    "timestamp": 1751288324467
+    "timestamp": 1751334726760
   },
   "references/eClassifiers/Tag/inheritance.html": {
     "path": "Tag/Inheritance",
-    "link-uuid": "fd87950d-2e09-4779-89ec-f34c5baa1185",
+    "link-uuid": "bbd53608-6249-41e0-8ef8-2650385e8908",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1751288324442
+    "timestamp": 1751334726733
   },
   "references/eClassifiers/BootstrapElement/references/eStructuralFeatures/appearance/index.html": {
     "path": "BootstrapElement/References/appearance",
-    "link-uuid": "89aec433-ebb7-4ab7-bb3d-0a21fcd98066",
+    "link-uuid": "35764711-3a8d-44b0-88ad-2ccbed3948bc",
     "title": "appearance",
     "content": "Type Appearance Multiplicity 0..1 Customizes appearance of Bootstrap element.",
-    "timestamp": 1751288323799
+    "timestamp": 1751334726080
   },
   "references/eClassifiers/Text/index.html": {
-    "link-uuid": "72686399-045c-40c4-8a83-8c96f43c89a8",
+    "link-uuid": "5d380919-2e17-4e4b-b3a5-5c9e2d569406",
     "title": "Text",
     "content": "Text styling.",
-    "timestamp": 1751288324457
+    "timestamp": 1751334726748
   },
   "references/eClassifiers/Border/references/eStructuralFeatures/right/index.html": {
     "path": "Border/Attributes/right",
-    "link-uuid": "483882eb-d32e-4ee5-92a6-ecf356e188c8",
+    "link-uuid": "dda20243-d462-4927-9058-7e08363a7438",
     "title": "right",
     "content": "Type EBoolean Multiplicity 0..1 Righ border.",
-    "timestamp": 1751288323821
+    "timestamp": 1751334726106
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/attributes/index.html": {
     "path": "Appearance/References/attributes",
-    "link-uuid": "eaa22fa6-9474-46d2-b5c7-327066302f5d",
+    "link-uuid": "ec6cb239-b83a-4d28-994d-2e52f954665e",
     "title": "attributes",
     "content": "Type Property Multiplicity 0..* HTML element (tag) attributes. Attributes defined at the appearance level overwrite attributes defined at the HTML element level. It is recommended to use one of the other. Interpolation Attribute values are interpolated, i.e. tokens in the form of default value] are replaced with the contextual values or default values, if any. Examples: ${my-style} - Token without a default value. bold - Token with a default value. Regular attributes For all top-level entries except class, style, and data attribute value is produced by converting the value to string for scalars and to JSON string for lists and maps. For attributes which do not start with data- a warning is issued if the value is not a scalar, i.e. a list or a map. Class For class attribute its value is formed by concantenating elements using space as a separator. If elements are hierarchical then class name is formed by concatenation with a dash (-) as a separator. Data If value of data attbibute is a map then keys of that map get concatenated with data using dash (-) as a separator, them same applies to nested maps. Non-map values become attribute values - scalars are converted to string, lists are converted to JSON string. Style Style can be defined as a string, list or map. If style is defined as a list, all list values are concatenated with a space as a separator - it is a convent way for long unstructured definitions. If style value is a map then the value and its contained map values are processed in the following fashion: Keys are concatenated with dash as a separator. List values are contcatenated wtih space as a separator.",
-    "timestamp": 1751288323724
+    "timestamp": 1751334726002
   },
   "references/eClassifiers/Row/index.html": {
-    "link-uuid": "3f63a357-1dfa-4b04-944b-a12dd5aa2853",
+    "link-uuid": "8ab8f67d-13dc-4863-b322-9a8b49943f9a",
     "title": "Row",
     "content": "Container rows",
-    "timestamp": 1751288324217
+    "timestamp": 1751334726498
   },
   "index.html": {
-    "link-uuid": "f7d82e0d-c1ab-4897-bbb1-8828585bce1c",
+    "link-uuid": "eebb5af2-d5ce-4223-9a43-fe1e37347df5",
     "title": "bootstrap",
     "content": "Model of Bootstrap elements.",
-    "timestamp": 1751288323591
+    "timestamp": 1751334725856
   },
   "references/eClassifiers/ActionGroupItem/inheritance.html": {
     "path": "ActionGroupItem/Inheritance",
-    "link-uuid": "a3633a55-dffb-4154-9c2f-124ef610044c",
+    "link-uuid": "ea9239e2-b414-400b-808c-f856984d7fdb",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1751288323637
+    "timestamp": 1751334725951
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/body/index.html": {
     "path": "Modal/References/body",
-    "link-uuid": "ad07676d-0bb5-40a3-9834-d84019db4937",
+    "link-uuid": "e9b2582b-aaea-4e55-91c9-4e28e6a3a59f",
     "title": "body",
     "content": "Type BootstrapElement Multiplicity 0..1 Modal body content and appearance.",
-    "timestamp": 1751288324158
+    "timestamp": 1751334726434
   },
   "references/eClassifiers/TableCell/references/eStructuralFeatures/background/index.html": {
     "path": "TableCell/Attributes/background",
-    "link-uuid": "f81e3941-9df2-4856-9052-695f28239e96",
+    "link-uuid": "f6f91891-1a61-4605-a2dd-82a064e3a259",
     "title": "background",
     "content": "Type Color Multiplicity 0..1 Cell background color. Displays differently from &ldquo;Color&rdquo;. Can also be specified via appearance.",
-    "timestamp": 1751288324317
+    "timestamp": 1751334726605
   },
   "references/eClassifiers/AppearanceEntry/references/eStructuralFeatures/value/index.html": {
     "path": "AppearanceEntry/References/value",
-    "link-uuid": "a0d2cfc0-a52a-4d97-b17c-aecb545bb1dd",
+    "link-uuid": "82c576b9-32de-4cdc-9108-295bd501e523",
     "title": "value",
     "content": "Type Appearance Multiplicity 1",
-    "timestamp": 1751288323755
+    "timestamp": 1751334726035
   },
   "references/eClassifiers/TableRow/references/eStructuralFeatures/color/index.html": {
     "path": "TableRow/Attributes/color",
-    "link-uuid": "727c7481-500e-4059-8901-1430af7d684b",
+    "link-uuid": "7751f2bb-cd53-44c6-a9e3-b07af5e2d275",
     "title": "color",
     "content": "Type Color Multiplicity 0..1 Row color.",
-    "timestamp": 1751288324391
+    "timestamp": 1751334726681
   },
   "references/eClassifiers/Slide/references/eStructuralFeatures/captions/index.html": {
     "path": "Slide/References/captions",
-    "link-uuid": "f24bc3c6-5b18-4253-9429-d88dd6ba96cf",
+    "link-uuid": "99949ef2-1dda-41c4-b894-9dbbc2dc5f3f",
     "title": "captions",
     "content": "Type EObject Multiplicity 0..*",
-    "timestamp": 1751288324244
+    "timestamp": 1751334726527
   },
   "references/eClassifiers/TableConfiguration/index.html": {
-    "link-uuid": "747d2afb-f3a5-47b0-a018-9259be15089a",
+    "link-uuid": "f4d5e92f-a8df-4c0a-86b2-41f982c19aac",
     "title": "TableConfiguration",
     "content": "Configuration of bootstrap table",
-    "timestamp": 1751288324337
+    "timestamp": 1751334726626
   },
   "references/eClassifiers/Div/index.html": {
-    "link-uuid": "b9003498-f0d5-4b51-93cb-68bde6619b36",
+    "link-uuid": "eb63b7bc-e5de-4158-b2bd-14a98116d353",
     "title": "Div",
     "content": "HTML DIV with bootstrap styling",
-    "timestamp": 1751288324033
+    "timestamp": 1751334726308
   },
   "references/eClassifiers/Button/references/eStructuralFeatures/color/index.html": {
     "path": "Button/Attributes/color",
-    "link-uuid": "7caa886b-8bf6-4b12-99bc-8dbe7d9d037c",
+    "link-uuid": "bd267189-ce9f-4962-9536-e6b023b8b6ba",
     "title": "color",
     "content": "Type Color Multiplicity 0..1",
-    "timestamp": 1751288323851
+    "timestamp": 1751334726135
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/children/index.html": {
     "path": "Appearance/References/children",
-    "link-uuid": "cd7bcf55-ec5d-4f68-83ef-f5add686e269",
+    "link-uuid": "3eb3b073-53fe-49bc-97ef-d4df4c3e57af",
     "title": "children",
     "content": "Type AppearanceEntry Multiplicity 0..*",
-    "timestamp": 1751288323729
+    "timestamp": 1751334726008
   },
   "references/eClassifiers/ActionGroup/references/eStructuralFeatures/items/index.html": {
     "path": "ActionGroup/References/items",
-    "link-uuid": "65f3b60f-e0ba-4573-9509-4adc9e8912bf",
+    "link-uuid": "20e4a994-02ec-4ea0-9847-1d0f14b8ae78",
     "title": "items",
     "content": "Type ActionGroupItem Multiplicity 0..* Group items.",
-    "timestamp": 1751288323619
+    "timestamp": 1751334725931
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/background/index.html": {
     "path": "Appearance/Attributes/background",
-    "link-uuid": "bd0ce199-4f10-41fd-b717-442f520196ad",
+    "link-uuid": "ac9e6272-ef87-4c50-92ff-24df8ea2c182",
     "title": "background",
     "content": "Type Color Multiplicity 0..1 Bootstrap color for background.",
-    "timestamp": 1751288323725
+    "timestamp": 1751334726004
   },
   "references/eClassifiers/Table/inheritance.html": {
     "path": "Table/Inheritance",
-    "link-uuid": "b3b40175-6837-40c9-8e75-fd2134050604",
+    "link-uuid": "fbb6b876-edf0-4008-8064-bb9cfafa9092",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288324291
+    "timestamp": 1751334726578
   },
   "references/eClassifiers/ContentActionGroupItem/index.html": {
-    "link-uuid": "9aa97105-e101-4ec6-b3f3-92ef0ba42258",
+    "link-uuid": "47b83013-ab59-4864-974b-688ce1fee41d",
     "title": "ContentActionGroupItem",
     "content": "Action Group Item with content. Click on the item shows the content in the content container.",
-    "timestamp": 1751288324002
+    "timestamp": 1751334726287
   },
   "references/eClassifiers/Float/references/eStructuralFeatures/breakpoint/index.html": {
     "path": "Float/Attributes/breakpoint",
-    "link-uuid": "fe4fb68d-741b-4f42-b16b-d2729763fa4f",
+    "link-uuid": "4af68b69-47a8-4132-9a8d-060d4bc9c09b",
     "title": "breakpoint",
     "content": "Type Breakpoint Multiplicity 0..1 Breakpoint.",
-    "timestamp": 1751288324062
+    "timestamp": 1751334726337
   },
   "references/eClassifiers/TableConfiguration/references/eStructuralFeatures/small/index.html": {
     "path": "TableConfiguration/Attributes/small",
-    "link-uuid": "9a8e2f36-39c9-48b7-829d-48f4d0891325",
+    "link-uuid": "1cc12e43-d545-4797-95cd-f6abcfdf1e06",
     "title": "small",
     "content": "Type EBoolean Multiplicity 0..1 Small table flag.",
-    "timestamp": 1751288324348
+    "timestamp": 1751334726636
   },
   "references/eClassifiers/BootstrapElement/index.html": {
-    "link-uuid": "8fd769b8-6466-4cd9-84ba-1d9d75baf5d9",
+    "link-uuid": "c5a8d8ed-8ab5-4e1f-8d37-f3d9f9cc833d",
     "title": "BootstrapElement",
     "content": "An HTML element with Bootstrap appearance.",
-    "timestamp": 1751288323793
+    "timestamp": 1751334726074
   },
   "references/eClassifiers/Column/index.html": {
-    "link-uuid": "c764b58e-5f35-4686-a35d-0530fe1ffcac",
+    "link-uuid": "64035bf4-1799-496e-932d-3edcb237b67c",
     "title": "Column",
     "content": "Container row column.",
-    "timestamp": 1751288323943
+    "timestamp": 1751334726229
   },
   "references/eClassifiers/TableHeader/inheritance.html": {
     "path": "TableHeader/Inheritance",
-    "link-uuid": "a8ae436c-06cb-4d18-8f01-8d7da87186d1",
+    "link-uuid": "24fde0a6-6046-47a5-b10f-a1d9e826598d",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288324362
+    "timestamp": 1751334726651
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/weight/index.html": {
     "path": "Text/Attributes/weight",
-    "link-uuid": "4e3b601f-3bf2-4766-bc97-78fd7f306079",
+    "link-uuid": "1292ee47-8245-4725-9a17-b8e66fca4166",
     "title": "weight",
     "content": "Type TextWeight Multiplicity 0..1 Text weight.",
-    "timestamp": 1751288324473
+    "timestamp": 1751334726766
   },
   "references/eClassifiers/ActionGroupItem/index.html": {
-    "link-uuid": "e50b928d-6a8f-4498-a3bc-7fe512f68cf1",
+    "link-uuid": "457d0a16-fccc-49ef-81d8-da6271927c46",
     "title": "ActionGroupItem",
     "content": "Base class for action group items",
-    "timestamp": 1751288323635
+    "timestamp": 1751334725949
   },
   "references/eClassifiers/Card/inheritance.html": {
     "path": "Card/Inheritance",
-    "link-uuid": "54799d50-3c6c-48c0-97f9-e4a14084e1dc",
+    "link-uuid": "a13be61b-abbb-4edc-9bed-b88af22982c9",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288323885
+    "timestamp": 1751334726168
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/size/index.html": {
     "path": "Spacing/Attributes/size",
-    "link-uuid": "ddc57c9c-bc16-462b-b3d2-5727f74ce694",
+    "link-uuid": "b1edb4e8-ec78-4674-aec4-48f5e7d602d9",
     "title": "size",
     "content": "Type Size Multiplicity 1 Spacing size - from 0 to 5 or auto.",
-    "timestamp": 1751288324271
+    "timestamp": 1751334726557
   },
   "references/eClassifiers/Page/references/eStructuralFeatures/theme/index.html": {
     "path": "Page/Attributes/theme",
-    "link-uuid": "8fac047c-f219-467b-bddc-e99048f714c3",
+    "link-uuid": "d35c4b9a-1ff0-4bb2-abde-8b328649f5c8",
     "title": "theme",
     "content": "Type Theme Multiplicity 0..1 Bootstrap theme. This attribute is applicable only if CDN is set to true. In this case Bootstrap stylesheets added to the page point to a specific theme.",
-    "timestamp": 1751288324204
+    "timestamp": 1751334726484
   },
   "references/eClassifiers/TableHeader/references/eStructuralFeatures/light/index.html": {
     "path": "TableHeader/Attributes/light",
-    "link-uuid": "086e646c-fb83-4569-a341-a0625dbbffa8",
+    "link-uuid": "ee5d550c-ab69-4175-b98a-8ee8c5d3c3f1",
     "title": "light",
     "content": "Type EBoolean Multiplicity 0..1 Light header (mutually exclusive with dark).",
-    "timestamp": 1751288324367
+    "timestamp": 1751334726657
   },
   "references/eClassifiers/Container/references/eStructuralFeatures/fluid/index.html": {
     "path": "Container/Attributes/fluid",
-    "link-uuid": "5015ad3c-39ac-4607-b97c-5d37319cb14e",
+    "link-uuid": "0c1811a3-6173-4f9b-8c6c-def1c72803ea",
     "title": "fluid",
     "content": "Type EBoolean Multiplicity 0..1 Fluid container spans the entire width of the viewport.",
-    "timestamp": 1751288323985
+    "timestamp": 1751334726270
   },
   "references/eClassifiers/Border/references/eStructuralFeatures/top/index.html": {
     "path": "Border/Attributes/top",
-    "link-uuid": "0b670532-0f79-4fcd-b898-879fe902e7fc",
+    "link-uuid": "f66ad856-3061-4d41-8a61-088a2eedc0e4",
     "title": "top",
     "content": "Type EBoolean Multiplicity 0..1 Top border.",
-    "timestamp": 1751288323823
+    "timestamp": 1751334726108
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/top/index.html": {
     "path": "Spacing/Attributes/top",
-    "link-uuid": "4dd68726-18cd-4039-a2e2-f37b9facc5b5",
+    "link-uuid": "248b017d-c6f3-48a4-98f9-6388d3d44a44",
     "title": "top",
     "content": "Type EBoolean Multiplicity 0..1 Top spacing.",
-    "timestamp": 1751288324273
+    "timestamp": 1751334726558
   },
   "references/eClassifiers/Slide/references/eStructuralFeatures/interval/index.html": {
     "path": "Slide/Attributes/interval",
-    "link-uuid": "64d67a50-7291-4190-81e6-0edcf43aa05f",
+    "link-uuid": "d831395b-d25e-4d43-ae41-cb71e89c64cb",
     "title": "interval",
     "content": "Type EIntegerObject Multiplicity 0..1",
-    "timestamp": 1751288324246
+    "timestamp": 1751334726528
   },
   "references/eClassifiers/Button/references/eStructuralFeatures/outline/index.html": {
     "path": "Button/Attributes/outline",
-    "link-uuid": "b3c1f8e6-549d-48ca-87d1-2a20b7a95e2c",
+    "link-uuid": "8ca62661-21c5-4b9d-9511-ed7fa29d39f2",
     "title": "outline",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1751288323852
+    "timestamp": 1751334726137
   },
   "references/eClassifiers/TableCell/references/eStructuralFeatures/header/index.html": {
     "path": "TableCell/Attributes/header",
-    "link-uuid": "befa6028-8913-40cb-b763-6661c64bb3d4",
+    "link-uuid": "4dbe4f89-c421-4461-ad6c-b16753358b0d",
     "title": "header",
     "content": "Type EBoolean Multiplicity 0..1 If true, table cell is generated as &lt;th&gt; instead of the default &lt;td&gt;.",
-    "timestamp": 1751288324322
+    "timestamp": 1751334726611
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/body/index.html": {
     "path": "Card/References/body",
-    "link-uuid": "d1c25281-639d-4805-b75e-aea7cdcc11b6",
+    "link-uuid": "5574c380-2ab1-46f3-a8c4-e377e7abc739",
     "title": "body",
     "content": "Type BootstrapElement Multiplicity 0..1 Card body.",
-    "timestamp": 1751288323889
+    "timestamp": 1751334726172
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/color/index.html": {
     "path": "Text/Attributes/color",
-    "link-uuid": "986228bc-c5f5-46d7-be54-b7918ad8a7a7",
+    "link-uuid": "af654b3b-14b2-4a70-8780-8f8e87c93923",
     "title": "color",
     "content": "Type Color Multiplicity 0..1 Text bootstrap color.",
-    "timestamp": 1751288324462
+    "timestamp": 1751334726755
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/centered/index.html": {
     "path": "Modal/Attributes/centered",
-    "link-uuid": "94cc87cd-86f2-47ed-a5e0-9f2b51c3af92",
+    "link-uuid": "a6873161-693d-471a-aa66-e64952f7e766",
     "title": "centered",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1751288324159
+    "timestamp": 1751334726435
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/scrollable/index.html": {
     "path": "Modal/Attributes/scrollable",
-    "link-uuid": "d83e0455-edcc-4fe1-8363-eb62fd53a39a",
+    "link-uuid": "220ffbcb-4569-49ea-9174-93e4e2d9c0e5",
     "title": "scrollable",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1751288324166
+    "timestamp": 1751334726443
   },
   "references/eClassifiers/Container/inheritance.html": {
     "path": "Container/Inheritance",
-    "link-uuid": "2f40b1c4-cfd6-4657-adfa-4fe8f74deaf0",
+    "link-uuid": "3d0c6a33-8c71-4df2-a848-c46cf7639995",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288323981
+    "timestamp": 1751334726266
   },
   "references/eClassifiers/ActionGroup/inheritance.html": {
     "path": "ActionGroup/Inheritance",
-    "link-uuid": "f7cf3e43-301b-4053-9415-23f69fbed23a",
+    "link-uuid": "17cb7a67-1e17-4ada-8e77-b28e3993a9ab",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288323613
+    "timestamp": 1751334725880
   },
   "references/eClassifiers/Text/references/eStructuralFeatures/monospace/index.html": {
     "path": "Text/Attributes/monospace",
-    "link-uuid": "9b810451-c682-47b9-9e33-8208a9ee4805",
+    "link-uuid": "6f509a29-608f-4b95-8523-fcf73af9fc58",
     "title": "monospace",
     "content": "Type EBoolean Multiplicity 0..1 Monospace flag.",
-    "timestamp": 1751288324466
+    "timestamp": 1751334726758
   },
   "references/eClassifiers/TableRow/inheritance.html": {
     "path": "TableRow/Inheritance",
-    "link-uuid": "e2a11ed0-38ca-47ae-9799-fd6c824bc783",
+    "link-uuid": "96234973-9ff6-40cd-b7bc-e492e444db8d",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288324383
+    "timestamp": 1751334726674
   },
   "references/eClassifiers/Border/references/eStructuralFeatures/color/index.html": {
     "path": "Border/Attributes/color",
-    "link-uuid": "f97148b6-e98e-43bd-8af4-3bbff9f4e9c4",
+    "link-uuid": "cbe52a95-27ff-4f41-bee6-69a2bb3b6ded",
     "title": "color",
     "content": "Type Color Multiplicity 1 Border bootstrap color.",
-    "timestamp": 1751288323818
+    "timestamp": 1751334726101
   },
   "references/eClassifiers/ColumnWidth/references/eStructuralFeatures/width/index.html": {
     "path": "ColumnWidth/Attributes/width",
-    "link-uuid": "af36c3e6-f2ba-4f4b-81c9-1fd39a92f6e3",
+    "link-uuid": "34bf24fc-6c8a-45db-94da-bd16ce7a3c19",
     "title": "width",
     "content": "Type EString Multiplicity 0..1 Column width.",
-    "timestamp": 1751288323968
+    "timestamp": 1751334726253
   },
   "references/eClassifiers/Float/index.html": {
-    "link-uuid": "0ae6e3ce-5455-43e8-ae59-0fc8b6791350",
+    "link-uuid": "1704b91b-36d0-43be-9b94-07cf0d84982b",
     "title": "Float",
     "content": "Defines element floating - left or right - for a given breakpoint.",
-    "timestamp": 1751288324059
+    "timestamp": 1751334726334
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/footer/index.html": {
     "path": "Modal/References/footer",
-    "link-uuid": "ead7c615-b73d-434b-8108-81c039d93a28",
+    "link-uuid": "d40da88c-d266-4356-b145-fcea064efde4",
     "title": "footer",
     "content": "Type BootstrapElement Multiplicity 0..1 Modal footer content and appearance.",
-    "timestamp": 1751288324163
+    "timestamp": 1751334726440
   },
   "references/eClassifiers/Div/inheritance.html": {
     "path": "Div/Inheritance",
-    "link-uuid": "59db855b-182d-448a-9429-3b2e75fda25a",
+    "link-uuid": "7bc91be6-0834-4001-8427-cacd77f6e289",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1751288324035
+    "timestamp": 1751334726310
   },
   "references/eClassifiers/Badge/inheritance.html": {
     "path": "Badge/Inheritance",
-    "link-uuid": "b45d6c39-800f-4ddc-b996-acded2bf8a62",
+    "link-uuid": "5b621246-5ec1-4282-bafd-febd23fc8b39",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288323770
+    "timestamp": 1751334726050
   },
   "references/eClassifiers/Carousel/references/eStructuralFeatures/indicator/index.html": {
     "path": "Carousel/Attributes/indicator",
-    "link-uuid": "1ba0ad0b-ec9b-487c-aff8-c7bd1e314add",
+    "link-uuid": "1085ce5d-7d88-4597-8c24-890bb58c008d",
     "title": "indicator",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1751288323915
+    "timestamp": 1751334726198
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/right/index.html": {
     "path": "Spacing/Attributes/right",
-    "link-uuid": "8d6d3027-ebd5-4a08-b5ff-81b178713857",
+    "link-uuid": "73ed1c8e-bbf0-4bc1-a35f-b8a5db6d1c8d",
     "title": "right",
     "content": "Type EBoolean Multiplicity 0..1 Righ spacing.",
-    "timestamp": 1751288324269
+    "timestamp": 1751334726555
   },
   "references/eClassifiers/AppearanceEntry/index.html": {
-    "link-uuid": "5b9b7d61-7b54-4280-aa2b-6b5978a03291",
+    "link-uuid": "de568779-8faf-4963-8312-ab1052881648",
     "title": "AppearanceEntry",
     "content": "Error loading documentation: java.net.MalformedURLException: unknown protocol: ecore",
-    "timestamp": 1751288323749
+    "timestamp": 1751334726029
   },
   "references/eClassifiers/TableRowContainer/references/eStructuralFeatures/rows/index.html": {
     "path": "TableRowContainer/References/rows",
-    "link-uuid": "0194668c-6aba-40dd-be19-e29fe06dd4b1",
+    "link-uuid": "5fb6eac6-2f77-40c7-aaca-e29c7fcd48de",
     "title": "rows",
     "content": "Type TableRow Multiplicity 0..* Table rows.",
-    "timestamp": 1751288324410
+    "timestamp": 1751334726700
   },
   "references/eClassifiers/Float/references/eStructuralFeatures/side/index.html": {
     "path": "Float/Attributes/side",
-    "link-uuid": "42ec72d3-e54e-4e00-88e9-438005e11110",
+    "link-uuid": "8b9f3bb3-8823-474f-9b97-15bc0037c69e",
     "title": "side",
     "content": "Type EString Multiplicity 1 Side to float to. left, right, or none.",
-    "timestamp": 1751288324064
+    "timestamp": 1751334726339
   },
   "references/eClassifiers/TableRowContainer/inheritance.html": {
     "path": "TableRowContainer/Inheritance",
-    "link-uuid": "a4ebd46c-9258-4196-8274-a8093057ab25",
+    "link-uuid": "e151eaaf-a26b-49f6-93f5-ae057db523f1",
     "title": "Inheritance",
     "content": "Supertypes Subtypes  ",
-    "timestamp": 1751288324407
+    "timestamp": 1751334726698
   },
   "references/eClassifiers/ActionGroupItem/references/eStructuralFeatures/name/index.html": {
     "path": "ActionGroupItem/References/name",
-    "link-uuid": "c38e7c79-885a-4df0-97d6-fec68354e2d9",
+    "link-uuid": "53b0cb32-9be0-4408-81f1-e2549725079a",
     "title": "name",
     "content": "Type EObject Multiplicity 0..* Item name",
-    "timestamp": 1751288323639
+    "timestamp": 1751334725953
   },
   "references/eClassifiers/Modal/references/eStructuralFeatures/dismisser/index.html": {
     "path": "Modal/Attributes/dismisser",
-    "link-uuid": "b9c2c15d-7bf6-4d8f-849f-f9f46eaa3011",
+    "link-uuid": "4e896402-85b6-46c9-8b4f-cf0286024f82",
     "title": "dismisser",
     "content": "Type EBoolean Multiplicity 0..1",
-    "timestamp": 1751288324161
+    "timestamp": 1751334726437
   },
   "references/eClassifiers/Appearance/references/eOperations/effectiveAppearance-0/references/eParameters/path/index.html": {
     "path": "Appearance/Operations/effectiveAppearance/Parameters/path",
-    "link-uuid": "7f5de017-d51f-4e0e-ab49-3f0e56b41996",
+    "link-uuid": "238c91b5-df1d-457a-89b8-ed1de269de66",
     "title": "path",
     "content": "Type EString Multiplicity 0..1",
-    "timestamp": 1751288323722
+    "timestamp": 1751334726000
   },
   "references/eClassifiers/Card/references/eStructuralFeatures/footer/index.html": {
     "path": "Card/References/footer",
-    "link-uuid": "51c83303-2bee-4f28-8cf5-3d99ac0058ec",
+    "link-uuid": "c926e528-cc82-44d7-9de3-424beac8d379",
     "title": "footer",
     "content": "Type BootstrapElement Multiplicity 0..1 Card footer.",
-    "timestamp": 1751288323890
+    "timestamp": 1751334726174
   },
   "references/eClassifiers/Table/references/eStructuralFeatures/body/index.html": {
     "path": "Table/References/body",
-    "link-uuid": "a363e522-c66f-4796-b8a4-31279db18756",
+    "link-uuid": "8af74c86-b93b-4efa-9976-6f0180bc85c4",
     "title": "body",
     "content": "Type TableSection Multiplicity 0..1 Table body.",
-    "timestamp": 1751288324295
+    "timestamp": 1751334726582
   },
   "references/eClassifiers/Table/index.html": {
-    "link-uuid": "6c9f1d89-0a3c-4d42-ae15-5b1b2b2c9e4e",
+    "link-uuid": "8820f455-c4c3-46c5-8fd3-31f0ad02e39d",
     "title": "Table",
     "content": "Bootstrap table",
-    "timestamp": 1751288324288
+    "timestamp": 1751334726576
   },
   "references/eClassifiers/LinkActionGroupItem/index.html": {
-    "link-uuid": "f549d6e8-1f46-4eb0-8eae-334e40efb85b",
+    "link-uuid": "cca47323-2127-4525-9839-92f7670f64ca",
     "title": "LinkActionGroupItem",
     "content": "Click on the item navigates to the link URL.",
-    "timestamp": 1751288324121
+    "timestamp": 1751334726401
   },
   "references/eClassifiers/TableCell/index.html": {
-    "link-uuid": "4563da35-fe61-4070-9008-216a13475612",
+    "link-uuid": "bf5e5c0d-b375-4af4-909e-8a8ee8cb604d",
     "title": "TableCell",
     "content": "Table cell - regular or header.",
-    "timestamp": 1751288324312
+    "timestamp": 1751334726600
   },
   "references/eClassifiers/TableRow/references/eStructuralFeatures/background/index.html": {
     "path": "TableRow/Attributes/background",
-    "link-uuid": "f6a6b9a4-a67a-4382-a0c8-e185885b0fea",
+    "link-uuid": "bc2e6b1b-4dae-4f37-a8fa-691ae805f5bf",
     "title": "background",
     "content": "Type Color Multiplicity 0..1 Row background color. Displays differently from &ldquo;Color&rdquo;. Can also be specified via appearance.",
-    "timestamp": 1751288324387
+    "timestamp": 1751334726677
   },
   "references/eClassifiers/Badge/references/eStructuralFeatures/color/index.html": {
     "path": "Badge/Attributes/color",
-    "link-uuid": "5a94747d-16c9-41e4-b542-b95cd284ddc2",
+    "link-uuid": "d4030b71-26ea-43b2-ac8e-47835ab26c4a",
     "title": "color",
     "content": "Type Color Multiplicity 0..1",
-    "timestamp": 1751288323774
+    "timestamp": 1751334726054
   },
   "references/eClassifiers/LinkActionGroupItem/inheritance.html": {
     "path": "LinkActionGroupItem/Inheritance",
-    "link-uuid": "898a2a3f-40e8-4d07-8691-a3bcaf93cf49",
+    "link-uuid": "442dbe41-9ade-434b-8b09-4062c2a15203",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288324123
+    "timestamp": 1751334726404
   },
   "references/eClassifiers/Spacing/references/eStructuralFeatures/y/index.html": {
     "path": "Spacing/Attributes/y",
-    "link-uuid": "fcec804d-273b-436e-ab31-8501afb66eec",
+    "link-uuid": "bdbf915a-f4da-4dbc-a70a-6446fb4af13f",
     "title": "y",
     "content": "Type EBoolean Multiplicity 0..1 Vertical spacing.",
-    "timestamp": 1751288324276
+    "timestamp": 1751334726563
   },
   "references/eClassifiers/Alert/inheritance.html": {
     "path": "Alert/Inheritance",
-    "link-uuid": "e3f624bf-dc77-4a0e-9ed0-38a6ad7af679",
+    "link-uuid": "995a8cad-eb93-4c63-a666-73d56ea1fc37",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1751288323689
+    "timestamp": 1751334725967
   },
   "references/eClassifiers/Appearance/references/eStructuralFeatures/margin/index.html": {
     "path": "Appearance/References/margin",
-    "link-uuid": "0ce5ca34-c201-45d0-8d68-fccdd7c19f8e",
+    "link-uuid": "d1a59b3d-e5ac-4848-aee5-237b53240dc9",
     "title": "margin",
     "content": "Type Spacing Multiplicity 0..* Margin configuration.",
-    "timestamp": 1751288323733
+    "timestamp": 1751334726012
   },
   "references/eClassifiers/Row/references/eStructuralFeatures/columns/index.html": {
     "path": "Row/References/columns",
-    "link-uuid": "49438088-3d26-4f26-bb20-c53ec66520a1",
+    "link-uuid": "a1b7a666-3b7a-458e-8281-0a9aba3579d9",
     "title": "columns",
     "content": "Type Column Multiplicity 0..* Row columns.",
-    "timestamp": 1751288324222
+    "timestamp": 1751334726503
   }
 }
