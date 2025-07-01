@@ -17,16 +17,21 @@ public class BootstraphProducerFactory {
 		this.context = context;
 	}
 
-//	@org.nasdanika.common.Transformer.Factory
-//	public final Producer<Object> createTagProducer(
-//			org.nasdanika.models.html.Tag tag,
-//			boolean parallel,
-//			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
-//			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
-//			ProgressMonitor progressMonitor) {
-//		
-//		return new TagProducer(context, tag, elementProvider);
-//	}
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createTagProducer(
+			org.nasdanika.models.bootstrap.Tag tag,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		return new TagProducer(context, tag, elementProvider);
+	}
+	
+//	BootstrapElement.java
+//	Tag.java
+//	Div.java
+	
 
 //	Accordion.java
 //	ActionGroup.java
@@ -34,9 +39,6 @@ public class BootstraphProducerFactory {
 //	Alert.java
 //	Appearance.java
 //	Badge.java
-//	BootstrapElement.java
-//	BootstrapFactory.java
-//	BootstrapPackage.java
 //	Border.java
 //	Breadcrumb.java
 //	Button.java
@@ -49,7 +51,6 @@ public class BootstraphProducerFactory {
 //	ColumnWidth.java
 //	Container.java
 //	ContentActionGroupItem.java
-//	Div.java
 //	Dropdown.java
 //	Float.java
 //	Form.java
@@ -72,7 +73,6 @@ public class BootstraphProducerFactory {
 //	TableRow.java
 //	TableRowContainer.java
 //	TableSection.java
-//	Tag.java
 //	Text.java
 //	Tooltip.java	
 	
