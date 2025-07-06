@@ -18,6 +18,17 @@ public class BootstraphProducerFactory {
 	}
 
 	@org.nasdanika.common.Transformer.Factory
+	public final Producer<String> createPageProducer(
+			org.nasdanika.models.bootstrap.Page page,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		return new PageProducer(context, page, elementProvider);
+	}
+
+	@org.nasdanika.common.Transformer.Factory
 	public final Producer<Object> createTagProducer(
 			org.nasdanika.models.bootstrap.Tag tag,
 			boolean parallel,
@@ -28,18 +39,55 @@ public class BootstraphProducerFactory {
 		return new TagProducer(context, tag, elementProvider);
 	}
 	
-//	BootstrapElement.java
-//	Tag.java
-//	Div.java
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createContainerProducer(
+			org.nasdanika.models.bootstrap.Container container,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		return new ContainerProducer(context, container, elementProvider);
+	}
 	
+	@org.nasdanika.common.Transformer.Wire
+	public final void wireContainerRows(
+			org.nasdanika.models.bootstrap.Container container,
+			ContainerProducer containerProducer,
+			Map<?,?> registry,
+			int pass,
+			ProgressMonitor progressMonitor) {
 
+		containerProducer.buildDelegateRows();
+	}	
+
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createRowProducer(
+			org.nasdanika.models.bootstrap.Row row,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		return new RowProducer(context, row, elementProvider);
+	}
+
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createColumnProducer(
+			org.nasdanika.models.bootstrap.Column column,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		return new ColumnProducer(context, column, elementProvider);
+	}
+	
 //	Accordion.java
 //	ActionGroup.java
 //	ActionGroupItem.java
 //	Alert.java
-//	Appearance.java
 //	Badge.java
-//	Border.java
 //	Breadcrumb.java
 //	Button.java
 //	ButtonGroup.java
@@ -47,12 +95,9 @@ public class BootstraphProducerFactory {
 //	Card.java
 //	Carousel.java
 //	Collapse.java
-//	Column.java
 //	ColumnWidth.java
-//	Container.java
 //	ContentActionGroupItem.java
 //	Dropdown.java
-//	Float.java
 //	Form.java
 //	FormGroup.java
 //	InputGroup.java
@@ -63,9 +108,7 @@ public class BootstraphProducerFactory {
 //	Navbar.java
 //	Navs.java
 //	Page.java
-//	Row.java
 //	Slide.java
-//	Spacing.java
 //	Table.java
 //	TableCell.java
 //	TableConfiguration.java
@@ -73,7 +116,6 @@ public class BootstraphProducerFactory {
 //	TableRow.java
 //	TableRowContainer.java
 //	TableSection.java
-//	Text.java
 //	Tooltip.java	
 	
 }
