@@ -36,7 +36,18 @@ public class BootstraphProducerFactory {
 			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
 			ProgressMonitor progressMonitor) {
 		
-		return new TagProducer(context, tag, elementProvider);
+		return new TagProducer<org.nasdanika.models.bootstrap.Tag,org.nasdanika.html.bootstrap.BootstrapElement<?, ?>>(context, tag, elementProvider);
+	}
+
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createDivProducer(
+			org.nasdanika.models.bootstrap.Div div,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		return new DivProducer<org.nasdanika.models.bootstrap.Div,org.nasdanika.html.bootstrap.BootstrapElement<?, ?>>(context, div, elementProvider);
 	}
 	
 	@org.nasdanika.common.Transformer.Factory
@@ -83,39 +94,137 @@ public class BootstraphProducerFactory {
 		return new ColumnProducer(context, column, elementProvider);
 	}
 	
-//	Accordion.java
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createAlertProducer(
+			org.nasdanika.models.bootstrap.Alert alert,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		return new AlertProducer(context, alert, elementProvider);
+	}	
+	
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createButtonProducer(
+			org.nasdanika.models.bootstrap.Button button,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		return new ButtonProducer(context, button, elementProvider);
+	}	
+	
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createModalProducer(
+			org.nasdanika.models.bootstrap.Modal modal,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		throw new UnsupportedOperationException();
+//		return new ModalProducer(context, modal, elementProvider);
+	}
+	
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createBadgeProducer(
+			org.nasdanika.models.bootstrap.Badge badge,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		throw new UnsupportedOperationException();
+//		return new BadgeProducer(context, modal, elementProvider);
+	}
+	
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createTableProducer(
+			org.nasdanika.models.bootstrap.Table table,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		throw new UnsupportedOperationException();
+//		return new TableProducer(context, modal, elementProvider);
+	}
+
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createTableSectionProducer(
+			org.nasdanika.models.bootstrap.TableSection tableSection,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		throw new UnsupportedOperationException();
+//		return new TableSectionProducer(context, modal, elementProvider);
+	}
+		
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createTableHeaderProducer(
+			org.nasdanika.models.bootstrap.TableHeader tableHeader,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		throw new UnsupportedOperationException();
+//		return new TableHeaderProducer(context, modal, elementProvider);
+	}
+		
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createTableRowProducer(
+			org.nasdanika.models.bootstrap.TableRow tableRow,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		throw new UnsupportedOperationException();
+//		return new TableRowProducer(context, modal, elementProvider);
+	}
+	
+	@org.nasdanika.common.Transformer.Factory
+	public final Producer<Object> createTableCellProducer(
+			org.nasdanika.models.bootstrap.TableCell tableCell,
+			boolean parallel,
+			BiConsumer<EObject, BiConsumer<Producer<Object>,ProgressMonitor>> elementProvider, 
+			Consumer<BiConsumer<Map<EObject, Producer<Object>>,ProgressMonitor>> registry,
+			ProgressMonitor progressMonitor) {
+		
+		throw new UnsupportedOperationException();
+//		return new TableCellProducer(context, modal, elementProvider);
+	}
+	
+
+//	Button.java	
 //	ActionGroup.java
 //	ActionGroupItem.java
-//	Alert.java
-//	Badge.java
-//	Breadcrumb.java
-//	Button.java
-//	ButtonGroup.java
-//	ButtonToolbar.java
 //	Card.java
 //	Carousel.java
-//	Collapse.java
-//	ColumnWidth.java
-//	ContentActionGroupItem.java
-//	Dropdown.java
-//	Form.java
-//	FormGroup.java
-//	InputGroup.java
+//	Slide.java
+//	Tooltip.java	
 //	Item.java
 //	LinkActionGroupItem.java
-//	ListGroup.java
-//	Modal.java
-//	Navbar.java
-//	Navs.java
-//	Page.java
-//	Slide.java
-//	Table.java
-//	TableCell.java
-//	TableConfiguration.java
-//	TableHeader.java
-//	TableRow.java
-//	TableRowContainer.java
-//	TableSection.java
-//	Tooltip.java	
+//	ColumnWidth.java
+//	ContentActionGroupItem.java
+	
+	
+///	Accordion.java
+///	Breadcrumb.java
+///	ButtonGroup.java
+///	ButtonToolbar.java
+///	Collapse.java
+///	Dropdown.java
+///	Form.java
+///	FormGroup.java
+///	InputGroup.java
+///	ListGroup.java
+///	Navbar.java
+///	Navs.java
 	
 }

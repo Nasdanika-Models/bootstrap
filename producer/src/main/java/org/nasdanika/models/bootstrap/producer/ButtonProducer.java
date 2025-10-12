@@ -7,23 +7,22 @@ import org.nasdanika.common.Context;
 import org.nasdanika.common.ProgressMonitor;
 import org.nasdanika.html.Producer;
 import org.nasdanika.html.bootstrap.BootstrapFactory;
-import org.nasdanika.models.bootstrap.Tag;
+import org.nasdanika.models.bootstrap.Button;
 
-public class TagProducer<T extends Tag, D extends org.nasdanika.html.bootstrap.BootstrapElement<?, ?>> extends BootstrapElementProducer<T, D> {
+public class ButtonProducer extends TagProducer<Button, org.nasdanika.html.bootstrap.Button<org.nasdanika.html.Button>> {
 
-	protected TagProducer(
+	protected ButtonProducer(
 			Context context, 
-			T element,
+			Button element,
 			BiConsumer<EObject, BiConsumer<Producer<Object>, ProgressMonitor>> elementProvider) {
 		super(context, element, elementProvider);
 	}
 
-	@SuppressWarnings("unchecked")
 	@Override
-	protected D createDelegate(Tag element, Context context) {
+	protected org.nasdanika.html.bootstrap.Button<org.nasdanika.html.Button> createDelegate(Button element, Context context) {
 		BootstrapFactory bootstrapFactory = context.get(BootstrapFactory.class, BootstrapFactory.INSTANCE);
-		org.nasdanika.html.Tag htmlTag = bootstrapFactory.getHTMLFactory().tag(element.getName());
-		return (D) bootstrapFactory.wrap(htmlTag);
+		org.nasdanika.html.Button button = bootstrapFactory.getHTMLFactory().button();
+		return bootstrapFactory.button(button, element.getColor(), element.isOutline()); 
 	}
-
+	
 }

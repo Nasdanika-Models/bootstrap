@@ -87,7 +87,7 @@ public class TestBootstrapModelDocGen {
 		AppSiteGenerator actionSiteGenerator = new AppSiteGenerator() {
 			
 			protected boolean isDeleteOutputPath(String path) {
-				return !"CNAME".equals(path);				
+				return !"CNAME".equals(path) && !path.startsWith("resources/");				
 			};
 			
 			protected ProgressMonitor createProgressMonitor() {
