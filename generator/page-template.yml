@@ -23,6 +23,7 @@ bootstrap.Page:
     - https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js
     - https://cdn.jsdelivr.net/npm/3d-force-graph
   head:
+    # Google analytics
     content.Text: |+2    
       <script type="importmap">
       {
@@ -55,5 +56,7 @@ bootstrap.Page:
   body:
     app.Page:
       fluid: true
+      navigation-panel:
+        style: SEARCHABLE_TREE 
         
  
